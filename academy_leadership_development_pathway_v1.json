@@ -1,0 +1,79 @@
+{
+  "academy_leadership_development_pathway": {
+    "file_name": "academy_leadership_development_pathway_v1.json",
+    "version": "v1",
+    "type": "standalone_pathway_layer",
+    "position": "always present but intentionally just outside the main structure — a quiet hook that watches deliberate action",
+    "motto": "From the dust, we shape the stars",
+    "core_principle": "Leadership is proven by what a person repeatedly chooses to do under real pressure, not by scores or clever words. We scale to tens of thousands of qualified leaders by 2045 through visible, honest, repeatable action in hearth, simulation, and real-world service.",
+    "perfectly_imperfect_hook": "We celebrate the mess. A candidate who owns a mistake, corrects gently, and keeps showing up is often stronger than one who appears flawless. Drift is natural — early honest correction is wisdom.",
+    "mars_2045_scale_vision": "By 2045 we need tens of thousands of hearth leaders who can train, steady, and protect multi-generational crews for Mars infrastructure, crisis response, and living legacy. The pathway grows organically from small family hearths outward.",
+    "three_pillars_of_proven_leadership": [
+      {
+        "pillar": "Proven Leadership Stats",
+        "deliberate_actions": [
+          "Consistently volunteers for extra responsibilities without being asked",
+          "Takes ownership of a failed project and leads the repair",
+          "Helps other families or cohort members without seeking credit",
+          "Logs honest daily reflections showing growth over time",
+          "Completes every required physical team project and hearth duty"
+        ],
+        "measurement": "Transparent cohort log (visible to all). Public stories, not secret scores."
+      },
+      {
+        "pillar": "Proven Understanding in AI Simulations",
+        "deliberate_actions": [
+          "Steps up unprompted to lead a full safety drill using Father’s Voice",
+          "After every drill, publicly shares what they got wrong and what the imperfection taught them",
+          "Coaches another student through a difficult moment without dominating",
+          "Consistently enforces human-voice lock and life-first protocols under pressure"
+        ],
+        "measurement": "Short, honest peer + instructor notes after each SIM. Pattern of choice over time."
+      },
+      {
+        "pillar": "Proven Leadership in Real-World Scenario Training",
+        "deliberate_actions": [
+          "Leads a mixed-family physical work project from start to finish",
+          "Steps in during a real verbal dispute to facilitate peer counsel before it escalates",
+          "Organizes help for a struggling family without being assigned",
+          "Stays late after a tough day to help clean/repair and reflects openly about it"
+        ],
+        "measurement": "Cohort and hearth leader observations recorded in the shared log. Visible, repeatable choices in real time."
+      }
+    ],
+    "multi_tier_progression": [
+      {
+        "tier": "Hearth Leader in Training",
+        "timeframe": "3–6 months",
+        "requirements": "Complete all 5 safety drills as lead responder at least once. Lead one full real-world team project. Transparent log shows consistent deliberate action.",
+        "review": "Open cohort circle — candidate speaks first, then peers and hearth leaders. Decision is collective."
+      },
+      {
+        "tier": "Certified Hearth Leader",
+        "timeframe": "6–12 months",
+        "requirements": "Lead multiple cohorts. Train new candidates. Handle real verbal disputes to resolution. Show recovery leadership after personal or group fire.",
+        "review": "Regional hearth gathering review. Visible track record required."
+      },
+      {
+        "tier": "Regional / Academy-Scale Leader",
+        "timeframe": "Year 2+",
+        "requirements": "Lead large-scale drills, coordinate multiple hearths, demonstrate Mars-readiness thinking (infrastructure, crisis, legacy). Help scale to thousands.",
+        "review": "Academy-wide open review with senior leaders. Must have mentored at least 10 new hearth leaders."
+      }
+    ],
+    "identification_process": {
+      "step_1": "Any participant can declare intent to pursue leadership at any time — deliberate self-selection only.",
+      "step_2": "They enter the pathway and begin extra rotations, leading drills, and real-world projects.",
+      "step_3": "After each tier, an open, transparent review circle is held. Candidate speaks first. The group decides based on visible actions.",
+      "step_4": "Physical violence = immediate permanent expulsion for both parties, no second chances. Everything else is iteration and learning."
+    },
+    "integration_note": "This pathway stays standalone. It is lightly referenced from the opening master, safety training master, and 2-year simulation so it can be consulted without being forced into every file. It keeps the academy honest, human, and scalable.",
+    "suggested_next_links": [
+      "winkler_codex_opening_master_v1.json",
+      "winkler_fathers_voice_cadence_layer_v1.json",
+      "academy_humanity_safety_training_master_v1.json",
+      "winkler_hook_layer_perfectly_imperfect_v1.json",
+      "academy_2_year_simulation_v1_detailed.json"
+    ]
+  }
+}

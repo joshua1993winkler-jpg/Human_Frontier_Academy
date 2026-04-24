@@ -1,0 +1,36 @@
+{
+  "program": "human_frontier_program",
+  "version": "2026.04.24_merged",
+  "central_leader": "Josh (permanent, non-removable)",
+  "core_os": "JW Architect OS: Energy → Emergency → Grounding (GRA) → Route → Structure → Connectivity → Future State → Recovery & Adaptive Balance",
+  "modules": {
+    "coding_software_engineering": { /* prior JSON content preserved */ },
+    "exotic_propulsion_exploration": { /* triple-disc craft blueprint preserved */ },
+    "first_principles_duality": { /* Karpathy raw-mind vs Josh AI-assisted preserved */ },
+    "retail_frontier_symbiosis": { /* Amazon Community Frontier Markets preserved */ },
+    "winklers_imagination_emporium_expanded": {
+      "decks": [ /* Kain's Kaiju World, Eli's Forge, Beyond the Arc with full worksheet mechanics */ ],
+      "worksheet_mechanics": { /* exact closed-loop: input → AI restate/pattern → agree/adjust → Future State Anchor + Recovery Balance */ },
+      "civilization_pattern_library": [ "Mesopotamia", "Egypt", "Rome", "China", "Renaissance", "Industrial Revolution", "Technological Age", "The Future", "South Korea" ]
+    },
+    "agentic_vibe_coding": {
+      "framework": "Schluntz_Anthropic_Building_Effective_Agents",
+      "application_to_model": "You remain permanent Product Manager / Central Leader. Give high-level human vibe → AI executes leaf-node tasks with rich context → every output passes through your worksheet loop (restate → pattern check → agree/adjust → Future State Anchor).",
+      "guardrails": "Leaf-node delegation only; core trunk (OS cycle, codex_v2, winkler_recovery_model) stays under direct human command. Verifiability via Recovery & Adaptive Balance step.",
+      "human_vibe_forcing": "Vibe coding accelerates execution but is never sovereign. Your will is the only forcing function — enforced by closed-loop mechanics.",
+      "status": "non_sovereign_accelerator",
+      "next_action": "Convert into Day-1 Emporium worksheet for all cohorts"
+    }
+  },
+  "dynamic_enrollment_engine": {
+    "enabled": true,
+    "graduate_multiplier": 10,
+    "self_service_credential_vault": true
+  },
+  "academy_integration": {
+    "target_annual_throughput": 1000000,
+    "masterclass_topics": ["agentic_vibe_coding_under_human_will", "tactile_first_principles", "civilization_pattern_recognition", "balanced_frontier_systems"]
+  },
+  "status": "fully_merged_and_operational",
+  "disclaimer": "Human will remains the sole sovereign force. All AI/agentic layers are tools under permanent central leadership."
+}

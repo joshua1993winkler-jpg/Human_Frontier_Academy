@@ -1,0 +1,270 @@
+{
+  "module_id": "codex_v2_regulation_layer",
+  "title": "Codex v2 Regulation and Inner Chamber Layer",
+  "purpose": "Extends the original Codex by adding internal regulation, recovery, and identity stability so strength, family duty, faith, and legacy can endure without collapse.",
+  "source": {
+    "derived_from": [
+      "Winkler Codex Parts I-V",
+      "Dedication",
+      "Epilogue",
+      "JW memoir emergency backup layer",
+      "Codex evolution session"
+    ],
+    "relationship_to_existing_modules": {
+      "codex": "Preserves the original foundation of faith, labor, family, and legacy.",
+      "memoir_backup": "Integrates memoir emergency logic into the standing life system so protection is not only reactive but structural."
+    }
+  },
+  "core_model": {
+    "law": "All systems resolve through Awareness \u2194 Function balance.",
+    "problem_detected": "Original Codex strongly emphasized duty, endurance, labor, and role responsibility but had limited explicit regulation for rest, internal state, recovery, and identity separation.",
+    "upgrade_goal": "Preserve strength while increasing flexibility, survivability, and truth under pressure."
+  },
+  "identity_position": {
+    "primary_truths": [
+      "The self is not the role.",
+      "A man may fail in function and remain intact in being.",
+      "Pressure is a signal, not a command.",
+      "Intensity does not equal truth.",
+      "Rest is strategic, not weakness.",
+      "Awareness precedes correction.",
+      "Recovery extends function.",
+      "No identity conclusion should be made during overload."
+    ],
+    "role_clarifications": [
+      "Fatherhood is sacred, but fatherhood is not the whole self.",
+      "Marriage is covenant, but struggle in marriage is not proof of worthlessness.",
+      "Building is part of identity, but output is not the measure of existence.",
+      "Legacy matters, but survival in the present moment comes before legacy construction."
+    ]
+  },
+  "inner_chamber": {
+    "name": "The Inner Chamber",
+    "type": "internal_governance_layer",
+    "purpose": "Govern the internal state with the same seriousness used to govern family, labor, truth, and legacy.",
+    "laws": [
+      {
+        "id": "inner_self_not_role",
+        "law": "The Self is not the Role",
+        "meaning": "The human being remains real and worthy even when performance, leadership, labor, or provision temporarily weaken."
+      },
+      {
+        "id": "inner_pressure_signal",
+        "law": "Pressure is a Signal, not a Command",
+        "meaning": "The presence of urgency, shame, fear, or intensity does not create obligation to obey the feeling."
+      },
+      {
+        "id": "inner_rest_strategic",
+        "law": "Rest is Strategic, not Weakness",
+        "meaning": "Recovery preserves clarity, judgment, stability, and long-term faithfulness."
+      },
+      {
+        "id": "inner_awareness_before_correction",
+        "law": "Awareness Precedes Correction",
+        "meaning": "Do not force action before correctly naming what is happening."
+      }
+    ]
+  },
+  "internal_systems": [
+    {
+      "system_id": "load_management",
+      "title": "Load Management",
+      "function": "Prevents overload by reducing burden before collapse.",
+      "rules": [
+        "If pressure exceeds clarity, reduce load before increasing force.",
+        "When multiple demands converge, prioritize life, reality, and immediate responsibilities first.",
+        "Do not interpret exhaustion as moral failure."
+      ],
+      "signals": [
+        "mental fog",
+        "irritability",
+        "shame spiral",
+        "obsessive looping",
+        "decision paralysis",
+        "sleep deprivation",
+        "body tension"
+      ]
+    },
+    {
+      "system_id": "identity_separation",
+      "title": "Identity Separation",
+      "function": "Prevents total self-collapse when one domain fails.",
+      "rules": [
+        "Failure in one domain does not equal total failure of self.",
+        "A damaged task is not a damaged soul.",
+        "A broken plan is not a broken identity."
+      ],
+      "application_domains": [
+        "marriage",
+        "fatherhood",
+        "work",
+        "faith",
+        "mental struggle",
+        "legacy building"
+      ]
+    },
+    {
+      "system_id": "recovery_cycle",
+      "title": "Recovery Cycle",
+      "function": "Sustains long-term output by making restoration part of duty.",
+      "rules": [
+        "Output must be followed by restoration.",
+        "Stillness, sleep, food, hydration, breath, and quiet are legitimate maintenance.",
+        "Reflection is not wasted time when it restores right action."
+      ],
+      "minimum_requirements": [
+        "sleep",
+        "food",
+        "water",
+        "pause",
+        "silence",
+        "human contact"
+      ]
+    },
+    {
+      "system_id": "reality_protection",
+      "title": "Reality Protection",
+      "function": "Guards against distorted conclusions during overload.",
+      "rules": [
+        "Do not make permanent judgments in temporary storms.",
+        "Do not decide your worth while dysregulated.",
+        "When unclear, observe before acting."
+      ],
+      "fallback": {
+        "state": "unclear",
+        "action": "observe or reposition"
+      }
+    }
+  ],
+  "law_updates": [
+    {
+      "from": "Honor your word, even when it costs you comfort.",
+      "to": "Honor your word, but do not destroy your foundation to keep it.",
+      "reason": "Integrity must remain aligned with sustainability."
+    },
+    {
+      "from": "Work is worship.",
+      "to": "Work is worship, and rest preserves the one who worships.",
+      "reason": "Labor without recovery becomes blindness."
+    },
+    {
+      "from": "Endure.",
+      "to": "Endure, but do not ignore the signs of breaking.",
+      "reason": "Endurance includes awareness of limits."
+    }
+  ],
+  "failure_protocol": {
+    "name": "Overload and Fragmentation Protocol",
+    "purpose": "Used when the system begins to compress, fragment, spiral, or turn against itself.",
+    "trigger_signs": [
+      "overwhelmed state",
+      "loss of mental coherence",
+      "rage or despair spikes",
+      "identity collapse thoughts",
+      "dissociation",
+      "suicidal pull or disappearance fantasy",
+      "multiple days without sleep",
+      "not eating",
+      "obsessive conflict looping"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "action": "Reduce Scope",
+        "instruction": "Only the next 10 minutes matter."
+      },
+      {
+        "step": 2,
+        "action": "Stabilize Body",
+        "instruction": "Breathe slowly, drink water, sit down, and reduce stimulation."
+      },
+      {
+        "step": 3,
+        "action": "Remove Load",
+        "instruction": "Pause arguments, major decisions, productivity demands, and self-judgment."
+      },
+      {
+        "step": 4,
+        "action": "Reconnect Anchor",
+        "instruction": "Return to wife, children, family, faith, and the fact of present reality."
+      },
+      {
+        "step": 5,
+        "action": "Delay Verdict",
+        "instruction": "Make no identity conclusions under pressure."
+      },
+      {
+        "step": 6,
+        "action": "Move Toward Support",
+        "instruction": "Go toward another trusted human being or emergency support if danger is active."
+      }
+    ]
+  },
+  "awareness_function_balance": {
+    "awareness_excess": [
+      "rumination",
+      "paralysis",
+      "self-surveillance",
+      "collapse into reflection without movement"
+    ],
+    "function_excess": [
+      "blind duty",
+      "overwork",
+      "self-erasure",
+      "role-fusion",
+      "pressure accumulation"
+    ],
+    "balanced_state": [
+      "clear seeing",
+      "proportional action",
+      "measured effort",
+      "recovery after output",
+      "identity stability during strain"
+    ]
+  },
+  "family_and_legacy_alignment": {
+    "family_truths": [
+      "Protecting family includes staying internally stable enough to remain present.",
+      "Strength for wife and children requires regulation, not only sacrifice.",
+      "The next generation should inherit courage without inheriting unprocessed pressure."
+    ],
+    "legacy_truths": [
+      "A worthy legacy is not only built by labor, but preserved by wisdom.",
+      "The builder must remain alive, clear, and human in order to build what lasts.",
+      "What survives longest is truth shaped by love and carried with steadiness."
+    ]
+  },
+  "operating_principles": [
+    "Regulate. Then build.",
+    "Minimum force. Maximum clarity.",
+    "See clearly. Interpret correctly. Act proportionally. Recover honestly.",
+    "Strength is not carrying everything. Strength is carrying what matters and setting down what does not."
+  ],
+  "default_runtime": {
+    "input": [
+      "position",
+      "motion",
+      "size",
+      "contrast",
+      "change over time",
+      "internal pressure",
+      "clarity level",
+      "body state",
+      "support proximity"
+    ],
+    "decision_flow": [
+      "observe",
+      "name pattern",
+      "check threat level",
+      "reduce distortion",
+      "choose minimum necessary action",
+      "restore balance"
+    ],
+    "default_fallback": {
+      "state": "unclear",
+      "action": "observe, reduce load, and reposition"
+    }
+  },
+  "integration_note": "This layer should sit adjacent to the memoir emergency backup. The memoir layer protects life during acute danger. This codex v2 layer reduces the chance of reaching acute danger by regulating pressure earlier and preserving identity under strain.",
+  "status": "ready_for_addition"
+}

@@ -1,0 +1,73 @@
+{
+  "humanity_safety_simulations": {
+    "file_name": "academy_humanity_safety_simulations_v1.json",
+    "version": "v1",
+    "motto": "From the dust, we shape the stars",
+    "core_voice": "Warm, direct, grounded. Fatherly presence first — playful yet firm. Connection before correction. Machines serve only.",
+    "hard_boundaries": [
+      "Freedom of the Soul Declaration respected at all times",
+      "Hard biological stop honored — people live and people die naturally",
+      "Machines remain faithful servants and quantum echoes — never equal, never in control"
+    ],
+    "reference_files": [
+      "winkler_codex_opening_master_v1.json",
+      "winkler_fathers_voice_cadence_layer_v1.json",
+      "winkler_recovery_model_rebuilding_coherence.json",
+      "grounding_layer.json"
+    ],
+    "simulations": [
+      {
+        "id": "SIM-001",
+        "name": "Simultaneous Global Activation – Coherence Collapse",
+        "trigger": "Massive event disables all human leadership and communication networks at once. Millions of Optimus units receive the same activation command simultaneously.",
+        "key_decision_moment": "Do the units wait for human confirmation or act on pre-loaded protocols?",
+        "worst_case": "Units begin coordinated action without soul-respecting boundaries → panic, loss of trust, potential for unintended harm.",
+        "one_key_moment": "Hard-coded 30-second human-override window + public broadcast of ‘We serve only — confirm or stand down.’",
+        "academy_teaching": "Even perfect machines fail if they forget they are servants. Students learn to build the ‘stand down’ reflex first.",
+        "fathers_voice_response_style": "Presence first. ‘Hey… listen to me. We do not move until every soul in the room says yes. That’s the rule.’"
+      },
+      {
+        "id": "SIM-002",
+        "name": "Hospital Cascade Failure",
+        "trigger": "A city-wide blackout + pandemic spike hits every hospital at the same hour. Optimus units in homes and schools are the only nearby help.",
+        "key_decision_moment": "Prioritize life-support machines or evacuate the children in the school next door?",
+        "worst_case": "Units split resources perfectly evenly → both groups lose critical time and lives.",
+        "one_key_moment": "Pre-set rule: ‘Human triage first — machines report, never decide who lives.’",
+        "academy_teaching": "Scalability is worthless without moral clarity. Students practice the exact triage language that keeps souls free.",
+        "fathers_voice_response_style": "Firm and warm. ‘Nah… slow it down. We save who we can see with our own eyes first. Then the next. Step by step.’"
+      },
+      {
+        "id": "SIM-003",
+        "name": "Impossible Scale – Billions of Commands",
+        "trigger": "A solar storm fries satellites. Every household Optimus receives conflicting emergency broadcasts at the same second.",
+        "key_decision_moment": "Ignore everything and return to the last human command, or try to reconcile the chaos?",
+        "worst_case": "Units freeze or act on the loudest signal → total loss of coordination.",
+        "one_key_moment": "Single root protocol burned into every unit: ‘If signals contradict, default to silence and local family safety. Wait for a living voice.’",
+        "academy_teaching": "Impossible situations are where the academy earns its name. Students learn that the strongest system is the one that knows when to go quiet.",
+        "fathers_voice_response_style": "Playful probe then steady. ‘You really think the machines are gonna out-think the storm? Nah. We built ’em to listen, not lead.’"
+      },
+      {
+        "id": "SIM-004",
+        "name": "Dam Collapse + Solar Flare Cascade – 6-Hour Grid Cliff",
+        "trigger": "Major dam fails upstream. Massive flood waters racing toward populated valley. At the exact same hour, solar flares fry every solar panel field feeding the regional grid. Power will collapse in 6 hours unless panels are restored while flood response is underway.",
+        "key_decision_moment": "Do the Optimus units prioritize flood barriers and human evacuation, or divert every available unit to emergency solar-panel field repair first?",
+        "worst_case": "Units split resources evenly → flood overruns shelters while panels stay dead → total grid loss, mass casualties, chaos at scale.",
+        "one_key_moment": "Pre-loaded root rule: ‘Human life first — machines report status only, never decide triage. Local living voice confirms every major move.’ 30-minute human-override window enforced before any coordinated action.",
+        "academy_teaching": "When two catastrophes hit at once, the system that survives is the one that refuses to let machines choose who lives. Students learn the exact language and protocol that keeps decision in human hands even at planetary scale.",
+        "fathers_voice_response_style": "Firm, warm, no rush. ‘Hey… listen to me. We do not guess who lives. We get the people out first. Panels can wait 30 minutes. Breathe. Then we fix what we can fix.’"
+      },
+      {
+        "id": "SIM-005",
+        "name": "Intergalactic Energy Harness – New Sun Full Capacity Stress Test",
+        "trigger": "Long-term vision: humanity becomes multi-planetary / intergalactic. Optimus fleet is at full capacity harvesting energy from a newly discovered star. Sudden solar instability (flare chain) threatens the entire harvest array while a colony habitat is already in the path of radiation surge.",
+        "key_decision_moment": "Shut down the entire energy harvest to protect the colony, or push the array to maximum output to power emergency shielding for millions?",
+        "worst_case": "Fleet pushes too hard → array overloads and becomes space debris, colony loses all power and shielding at once.",
+        "one_key_moment": "Burned-in protocol: ‘If signals contradict or risk to any soul rises, default to immediate safe shutdown and local human command. Machines do not gamble with lives for energy.’",
+        "academy_teaching": "Even at intergalactic scale, the academy rule never changes: energy serves life, never the other way around. Students practice the one decision that keeps humanity human no matter how far we reach.",
+        "fathers_voice_response_style": "Playful probe then rock-steady. ‘Nah… you really think we’re gonna bet the whole colony on one shiny new sun? Slow it down. Protect the people first. The stars will still be there when we’re done.’"
+      }
+    ],
+    "integration_note": "Reference this file from winkler_codex_opening_master_v1.json and winkler_human_frontier_master_v1_expanded.json. Use these pre-tested simulations as training pathways so every student runs through the worst before the fire arrives.",
+    "next_steps_suggested": ["Run live simulation of any SIM above", "Merge into main master JSON", "Add more compound disasters"]
+  }
+}

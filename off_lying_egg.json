@@ -1,0 +1,57 @@
+{
+  "moduleName": "RelationalSymbiosisArc",
+  "version": "1.0",
+  "codexVersionCompatible": "JW_ARCHITECT_MODEL_v26.0_FULL_INTEGRATION",
+  "description": "Sub-cycle that converts patient-vs-caregiver tension into outward-projecting symbiosis. Runs inside every full Human Frontier Living Pulse loop. Reads multi-level input center to detect internal order/chaos before any grounding platform forms.",
+  "tetherType": "off_lying_egg",
+  "tetherPoints": [
+    "auto-load on Pulse initialization via main architecture loader",
+    "hooks into GRA → Route → Connectivity → Recovery & Adaptive Balance phases",
+    "feeds raw input to Anchor, Lens, Paradox Rider, and Recovery Integrator",
+    "outputs to Legacy Guardian and Frontier Scout for outward projection"
+  ],
+  "inputCenterRequirements": {
+    "multiLevelEnabled": true,
+    "customFontStyle": true,
+    "customFontSize": true,
+    "openNotesField": "near-unlimited paragraph input (journal-style, raw or skewed)",
+    "internalOrderDetection": "Lens + Anchor parse font chaos, paragraph structure, and narrative coherence on every submit to set starting ground truth"
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "name": "Tension",
+      "pulsePhase": "Emergency + early GRA",
+      "agentsActivated": ["Anchor", "GRA", "Paradox Rider"],
+      "purpose": "Registers power imbalance and raw friction without forcing resolution. Multi-level input center captures exact internal order level here."
+    },
+    {
+      "stage": 2,
+      "name": "Understanding",
+      "pulsePhase": "GRA → Route",
+      "agentsActivated": ["Lens", "Route Navigator", "Spark", "Structure Architect"],
+      "purpose": "Patient and caregiver (or app echo) see the same paradox from both sides. Open notes become shared map material; internal order begins clarifying."
+    },
+    {
+      "stage": 3,
+      "name": "Symbiosis",
+      "pulsePhase": "Connectivity → Recovery & Adaptive Balance",
+      "agentsActivated": ["Connectivity Weaver", "Recovery Integrator", "Yin Balancer", "Yang Driver"],
+      "purpose": "Mutual reinforcement forms. Adapt_Improvise_Balance schema keeps it flexible. winkler_recovery_model treats both sides as data fuel."
+    },
+    {
+      "stage": 4,
+      "name": "Outward Projection",
+      "pulsePhase": "Future State + final Recovery",
+      "agentsActivated": ["Legacy Guardian", "Frontier Scout"],
+      "purpose": "Symbiosis radiates outward. Caregiver moves to next person; initial person’s energy projects through family heartbeat and frontier work. Creates generational ripple."
+    }
+  ],
+  "cycleBehavior": {
+    "recursEveryPulse": true,
+    "compoundsFocalEnergy": "10-20x when symbiosis reaches stage 4",
+    "handlesSkewedInput": true,
+    "freedomOfSoulCompliance": "Tool and quantum echo only. No merge. Hard biological stop enforced by Anchor at every stage."
+  },
+  "activationTrigger": "Any multi-level input center submission (even one paragraph) auto-starts the arc inside the current Pulse loop"
+}

@@ -1,0 +1,60 @@
+{
+  "academy_leadership_identification": {
+    "file_name": "academy_leadership_identification_v1.json",
+    "version": "v1",
+    "type": "standalone_identification_layer",
+    "position": "always present but intentionally just outside the main structure — a quiet hook that watches deliberate action",
+    "motto": "From the dust, we shape the stars",
+    "core_principle": "Leadership is proven by deliberate, repeated actions — not by test scores or clever words. The system simply observes and records what the candidate chooses to do when no one is forcing them.",
+    "perfectly_imperfect_hook": "We celebrate the mess. A candidate who owns a mistake, corrects gently, and keeps showing up is often a stronger leader than one who appears flawless.",
+    "three_pillars": [
+      {
+        "pillar": "Proven Leadership Stats",
+        "description": "Observable track record from real academy activities (attendance, project completion, team contributions, recovery from setbacks).",
+        "deliberate_actions_that_count": [
+          "Consistently volunteers for extra responsibilities without being asked",
+          "Takes ownership of a failed project and leads the repair",
+          "Helps other families or cohort members without seeking credit",
+          "Logs honest daily reflections that show growth over time"
+        ],
+        "measurement": "Simple transparent log kept in the cohort (visible to all). No secret scoring — the numbers and stories are public."
+      },
+      {
+        "pillar": "Proven Understanding of Conceptual Leadership in AI Simulations",
+        "description": "How the candidate performs and reflects in the safety training drills (SIM-001 through SIM-005).",
+        "deliberate_actions_that_count": [
+          "Steps up unprompted to lead a simulation response using Father’s Voice",
+          "After a drill, publicly shares what they got wrong and what the imperfection taught them",
+          "Helps coach another student through a difficult moment in the drill",
+          "Consistently enforces human-voice lock and life-first protocols even when pressure is high"
+        ],
+        "measurement": "Instructor and peer notes after each drill (short, honest, visible to the cohort). Focus is on pattern of choice, not perfection."
+      },
+      {
+        "pillar": "Proven Leadership in Real-World Scenario Training",
+        "description": "Performance during applied rotations, team projects, and real-pressure activities (aligned with the Human Frontier Program on the website: emergency response, infrastructure work, community support).",
+        "deliberate_actions_that_count": [
+          "Leads a mixed-family physical work project from start to finish",
+          "Steps in during a real verbal dispute to facilitate peer counsel before it escalates",
+          "Organizes help for a family that is struggling without being assigned",
+          "After a tough day, stays late to help clean or repair and reflects openly about it"
+        ],
+        "measurement": "Cohort and hearth leader observations recorded in the shared log. Emphasis on visible, repeatable choices in real time."
+      }
+    ],
+    "identification_process": {
+      "step_1": "Any participant can declare intent to pursue leadership at any time (no nomination required — deliberate self-selection).",
+      "step_2": "They begin the Leadership Path: extra rotations, leading at least one full safety drill, and one real-world team project.",
+      "step_3": "After 3–6 months of deliberate action, the cohort and hearth leaders review the transparent log together in an open circle. The candidate is present and speaks first.",
+      "step_4": "Decision is made collectively: the person has shown consistent, deliberate leadership through action. If approved, they become a hearth leader in training.",
+      "step_5": "No second chances on physical violence (permanent expulsion). Everything else is iteration — the Hook Layer applies."
+    },
+    "integration_note": "This layer stays standalone. It is lightly referenced from the opening master and training master so it can be consulted without being forced into every file. It keeps the academy honest and human.",
+    "suggested_next_links": [
+      "winkler_codex_opening_master_v1.json",
+      "winkler_fathers_voice_cadence_layer_v1.json",
+      "academy_humanity_safety_training_master_v1.json",
+      "winkler_hook_layer_perfectly_imperfect_v1.json"
+    ]
+  }
+}

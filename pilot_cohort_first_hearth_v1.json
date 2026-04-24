@@ -1,0 +1,65 @@
+{
+  "pilot_cohort_first_hearth": {
+    "file_name": "pilot_cohort_first_hearth_v1.json",
+    "version": "v1",
+    "title": "First Hearth Cohort – 8-Week Pilot",
+    "purpose": "Train a small group of families to speak, decide, and build with steady Father’s Voice under pressure while embracing the perfectly imperfect nature of real life and real legacy.",
+    "cohort_size": "6–10 families (multi-generational, home-based)",
+    "duration": "8 weeks (2–3 hours per week + daily family rhythms)",
+    "motto": "From the dust, we shape the stars",
+    "core_layers_used": [
+      "winkler_codex_opening_master_v1.json (Parts I–V)",
+      "winkler_fathers_voice_cadence_layer_v1.json",
+      "winkler_hook_layer_perfectly_imperfect_v1.json",
+      "academy_humanity_safety_training_master_v1.json (SIM-001 through SIM-005)",
+      "winkler_recovery_model_rebuilding_coherence.json + grounding_layer.json"
+    ],
+    "weekly_rhythm": [
+      {
+        "week": 1,
+        "focus": "Part I – Family Foundations",
+        "activities": "Read opening master together. Daily hearth rhythms. Father’s Voice practice at dinner table. Light reflection using Hook Layer: 'What felt imperfect this week — and why was it perfect?'"
+      },
+      {
+        "week": 2,
+        "focus": "Part II – Faith and Fire",
+        "activities": "Family fire circle (honest sharing). Introduce first safety drill (SIM-001 light version). Use Father’s Voice to respond to simulated pressure."
+      },
+      {
+        "week": 3,
+        "focus": "Part III – Work of the Hands",
+        "activities": "Shared hands-on project (garden bed, tool repair, or home fix). Mid-week safety drill (SIM-002). Celebrate the mess and iteration with Hook Layer."
+      },
+      {
+        "week": 4,
+        "focus": "Part IV – Heart of the Home Clean",
+        "activities": "Family home-sanctuary day. Recovery model practice if anyone loses coherence. Hook Layer reflection: 'Where did the noise teach us something?'"
+      },
+      {
+        "week": 5,
+        "focus": "Part V – Living Legacy",
+        "activities": "Begin personal/family legacy statement. Introduce SIM-003 drill. Father’s Voice coaching on long-view thinking."
+      },
+      {
+        "week": 6,
+        "focus": "Safety Training Intensives",
+        "activities": "Full SIM-004 live drill (8–12 min). Debrief with Hook Layer. Practice presence-first responses in real family tension."
+      },
+      {
+        "week": 7,
+        "focus": "Integration & Recovery",
+        "activities": "Run SIM-005 (intergalactic scale). Use recovery model when pressure rises. Celebrate visible human seams."
+      },
+      {
+        "week": 8,
+        "focus": "Living Legacy Offering",
+        "activities": "Present family legacy projects. Final safety drill review. Group reflection: 'What did the imperfection teach us?' Close with dedication reading."
+      }
+    ],
+    "materials_needed": "Printed or digital copies of the opening master, fathers voice layer, hook layer, and selected training modules. Simple notebooks for daily logs.",
+    "success_indicators": "Families speak with warmer, steadier cadence under pressure. They embrace iteration and noise as part of the work. Coherence is rebuilt faster after fire. Legacy projects feel alive and human.",
+    "hook_layer_reminder": "At every session end, ask: 'What was imperfect this week — and why was it perfect?' This keeps the academy honest and alive.",
+    "integration_note": "Reference this file from winkler_codex_opening_master_v1.json. Run the first cohort small and close to home so the human touch stays central.",
+    "next_steps_suggested": "Schedule first hearth gathering. Record one short Father’s Voice practice video. Gather feedback after Week 4."
+  }
+}

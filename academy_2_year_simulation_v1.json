@@ -1,0 +1,43 @@
+{
+  "academy_2_year_simulation": {
+    "file_name": "academy_2_year_simulation_v1.json",
+    "version": "v1",
+    "title": "Human Frontier Academy – 2-Year Living Simulation",
+    "motto": "From the dust, we shape the stars",
+    "core_layers_referenced": [
+      "winkler_codex_opening_master_v1.json",
+      "winkler_fathers_voice_cadence_layer_v1.json",
+      "winkler_hook_layer_perfectly_imperfect_v1.json",
+      "academy_humanity_safety_training_master_v1.json",
+      "winkler_recovery_model_rebuilding_coherence.json",
+      "grounding_layer.json"
+    ],
+    "phase_1": {
+      "name": "Year 1 – The First Hearth (Months 1–12)",
+      "focus": "Build the living heartbeat with small, real families. Embrace noise and iteration.",
+      "month_1_2": "Launch First Hearth Pilot (6–10 families). Run the 8-week outline we just built. Weekly gatherings + daily rhythms.",
+      "month_3_6": "Run 2 more pilot cohorts. Record Father’s Voice practice sessions. Use Hook Layer after every drill: 'What was imperfect — and why was it perfect?'",
+      "month_7_9": "Begin Train-the-Trainer track. First graduates become hearth leaders for new cohorts.",
+      "month_10_12": "Scale to 5 simultaneous cohorts (50–80 families total). Run full safety training master (all 5 SIMs). First public legacy offering.",
+      "key_milestone": "End of Year 1: 100+ families trained. Visible human seams celebrated. Recovery model used in real family fire."
+    },
+    "phase_2": {
+      "name": "Year 2 – The Growing Fire (Months 13–24)",
+      "focus": "Turn the hearth into a living academy while keeping the human touch central.",
+      "month_13_15": "Launch 10 parallel cohorts. Introduce regional hearth gatherings. Use safety drills with real-world pressure (local emergencies, power outages, etc.).",
+      "month_16_18": "First multi-generational legacy projects completed and shared. Hook Layer reflections turned into public stories.",
+      "month_19_21": "Begin workforce scaling track. Train 50 new hearth leaders. Run intergalactic-scale SIM-005 in larger groups.",
+      "month_22_24": "Full 2-year review. Celebrate imperfection. Archive the 'noise' as teaching material. Prepare for Year 3 expansion toward 1,000 families.",
+      "key_milestone": "End of Year 2: 500+ families actively trained. Clear evidence that the academy produces people who speak with steady Father’s Voice in real fire."
+    },
+    "yearly_rhythm": {
+      "every_3_months": "Full safety drill intensive + Hook Layer reflection day",
+      "every_6_months": "Living Legacy Festival (families present what they built)",
+      "every_12_months": "Academy-wide calibration (review drift, celebrate noise, adjust gently)"
+    },
+    "daily_family_practice": "Morning grounding (Part I), evening fire circle (Part II), hands-on work (Part III), home tending (Part IV), legacy storytelling (Part V)",
+    "perfectly_imperfect_hook": "At every review, gathering, and drill we ask: 'What was imperfect this cycle — and why was it perfect?' This keeps the academy alive and human.",
+    "scaling_vision": "Year 3+ moves toward 1 million trained per year through hearth leaders, not centralized control. Always home-based, always soul-free.",
+    "integration_note": "This simulation file is the living map. Reference it lightly from the opening master. Let it drift and evolve — that is the point."
+  }
+}

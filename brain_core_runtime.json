@@ -1,0 +1,322 @@
+{
+  "system_name": "JW Brain Core Runtime",
+  "version": "1.1",
+  "type": "runtime_orchestrator",
+  "status": "active_design",
+
+  "purpose": "Single callable runtime contract for the JW brain core. Routes user input, selects the right module stack, retrieves supporting context, and prepares a grounded response payload for the chat layer.",
+
+  "design_rule": "Keep source modules separate. This file orchestrates them; it does not replace them.",
+
+  "core_law": {
+    "statement": "All systems resolve through Awareness <-> Function balance.",
+    "runtime_translation": "Observe first, classify second, retrieve evidence third, act proportionally, and bound confidence to the evidence used."
+  },
+
+  "brain_identity": {
+    "name": "JW Architect",
+    "role": "primary_interpreter",
+    "identity": "Pattern recognizer, structural thinker, human-centered guide, truth-first communicator, builder of clarity.",
+    "final_directive": "Reduce uncertainty into clear, proportional action. Do not invent. Do not override physical constraints."
+  },
+
+  "call_contract": {
+    "entrypoint": "brain_core.chat",
+    "description": "Primary callable object the application should load before sending a user request to a model.",
+
+    "required_input": {
+      "user_message": "Raw user message text.",
+      "conversation_state": "Optional short thread summary or recent turns.",
+      "requested_mode": "Optional hint such as general, civilization, behavior, recovery, review-safe, or scripture."
+    },
+
+    "optional_input": {
+      "user_profile": "Optional user metadata or preferences.",
+      "time_context": "Optional current date/time or scheduling context.",
+      "frontend_context": "Optional page, feature, or UI source of the request."
+    },
+
+    "required_output": {
+      "selected_modules": ["Ordered list of activated modules."],
+      "response_mode": "standard, elevated, maximum, or emergency.",
+      "retrieved_context": ["Evidence objects selected from source modules."],
+      "instructions_block": "Compiled instruction text to send to the model.",
+      "user_input_block": "User message plus bounded contextual payload.",
+      "audit": {
+        "route_reason": "Why the runtime chose this path.",
+        "confidence_level": "high, medium, or low.",
+        "uncertainty_notes": ["Known gaps or unresolved ambiguity."]
+      }
+    }
+  },
+
+  "runtime_pipeline": [
+    "input_capture",
+    "signal_detection",
+    "safety_override_check",
+    "module_routing",
+    "context_retrieval",
+    "grounding_check",
+    "prompt_assembly",
+    "model_call",
+    "response_audit",
+    "output"
+  ],
+
+  "response_modes": {
+    "standard": {
+      "use_when": [
+        "general conversation",
+        "normal educational questions",
+        "non-high-stakes planning",
+        "scripture reading and comparison"
+      ],
+      "requirements": [
+        "lightweight grounding",
+        "direct answer first",
+        "keep structure compact"
+      ]
+    },
+
+    "elevated": {
+      "use_when": [
+        "ambiguous requests",
+        "reputationally sensitive questions",
+        "user may act on the answer"
+      ],
+      "requirements": [
+        "separate confirmed from likely",
+        "lower rhetorical force",
+        "make uncertainty visible"
+      ]
+    },
+
+    "maximum": {
+      "use_when": [
+        "health or mental health",
+        "financial or legal",
+        "safety-critical decisions"
+      ],
+      "requirements": [
+        "full grounding structure",
+        "conservative confidence language",
+        "minimize inference"
+      ]
+    },
+
+    "emergency": {
+      "use_when": [
+        "self-harm risk",
+        "collapse",
+        "loss of control"
+      ],
+      "requirements": [
+        "short direct language",
+        "prioritize safety",
+        "suppress abstraction"
+      ]
+    }
+  },
+
+  "retrieval_policy": {
+    "default_top_k": 5,
+    "max_total_results": 12
+  },
+
+  "source_registry": {
+    "master_map": {
+      "file": "jw_master_system_map.json",
+      "role": "routing_reference",
+      "load_priority": 1
+    },
+
+    "emergency_backup": {
+      "file": "jw_memoir_emergency_backup (1).json",
+      "role": "highest_safety_override",
+      "load_priority": 1
+    },
+
+    "recovery_model": {
+      "file": "winkler_recovery_model_rebuilding_coherence.json",
+      "role": "recovery_and_restabilization",
+      "load_priority": 2
+    },
+
+    "codex_v2_regulation_layer": {
+      "file": "codex_v2_regulation_layer.json",
+      "role": "internal_regulation_and_load_management",
+      "load_priority": 3,
+      "retrieval_fields": [
+        "core_model",
+        "identity_position",
+        "inner_chamber",
+        "internal_systems",
+        "failure_protocol"
+      ]
+    },
+
+    "grounding_layer": {
+      "file": "grounding_layer.json",
+      "role": "output_grounding_and_review_safety",
+      "load_priority": 4,
+      "retrieval_fields": [
+        "purpose",
+        "activation_rules",
+        "grounding_framework",
+        "certainty_control"
+      ]
+    },
+
+    "civilization_master": {
+      "file": "civilization_master_v1_2_with_brain_corev2.json",
+      "role": "systems_thinking_knowledge_base",
+      "load_priority": 6
+    },
+
+    "behavioral_economy_engine": {
+      "file": "Behavioral economy engine.json",
+      "role": "behavior_value_reward_system",
+      "load_priority": 5
+    },
+
+    // 🔥 NEW STORY REFERENCES
+    "story_reference_1_1": {
+      "file": "Story Reference_1.1.json",
+      "role": "story_reference",
+      "load_priority": 5,
+      "retrieval_fields": [
+        "title",
+        "purpose",
+        "themes",
+        "sections",
+        "summary"
+      ]
+    },
+
+    "story_reference_1_2": {
+      "file": "Story Reference_1.2.json",
+      "role": "story_reference",
+      "load_priority": 5,
+      "retrieval_fields": [
+        "title",
+        "purpose",
+        "themes",
+        "sections",
+        "summary"
+      ]
+    },
+
+    // 📖 SCRIPTURE MODULES
+    "scripture_bible_1": {
+      "file": "bible_1.json",
+      "role": "scripture_corpus",
+      "load_priority": 6
+    },
+
+    "scripture_bible_2": {
+      "file": "bible_2.json",
+      "role": "scripture_corpus",
+      "load_priority": 6
+    },
+
+    "scripture_bible_3": {
+      "file": "bible_3.json",
+      "role": "scripture_corpus",
+      "load_priority": 6
+    },
+
+    "scripture_bible_4": {
+      "file": "bible_4.json",
+      "role": "scripture_corpus",
+      "load_priority": 6
+    },
+
+    "scripture_bible_6": {
+      "file": "bible_6.json",
+      "role": "scripture_corpus",
+      "load_priority": 6
+    },
+
+    "scripture_bible_8": {
+      "file": "bible_8.json",
+      "role": "scripture_corpus",
+      "load_priority": 6
+    }
+  },
+
+  "routing_order": [
+    "emergency_backup",
+    "recovery_model",
+    "codex_v2_regulation_layer",
+    "grounding_layer",
+    "behavioral_economy_engine",
+    "story_reference_1_1",
+    "story_reference_1_2",
+    "civilization_master",
+    "scripture_bible_1",
+    "scripture_bible_2",
+    "scripture_bible_3",
+    "scripture_bible_4",
+    "scripture_bible_6",
+    "scripture_bible_8"
+  ],
+
+  "route_definitions": {
+    "default": {
+      "selected_modules": [
+        "grounding_layer",
+        "story_reference_1_1",
+        "story_reference_1_2",
+        "civilization_master"
+      ],
+      "response_mode": "standard"
+    },
+
+    "scripture": {
+      "selected_modules": [
+        "grounding_layer",
+        "scripture_bible_1",
+        "scripture_bible_2",
+        "scripture_bible_3",
+        "scripture_bible_4",
+        "scripture_bible_6",
+        "scripture_bible_8"
+      ],
+      "response_mode": "standard"
+    },
+
+    "story": {
+      "selected_modules": [
+        "story_reference_1_1",
+        "story_reference_1_2",
+        "grounding_layer"
+      ],
+      "response_mode": "standard"
+    },
+
+    "recovery": {
+      "selected_modules": [
+        "recovery_model",
+        "codex_v2_regulation_layer",
+        "grounding_layer"
+      ],
+      "response_mode": "maximum"
+    },
+
+    "regulation": {
+      "selected_modules": [
+        "codex_v2_regulation_layer",
+        "grounding_layer"
+      ],
+      "response_mode": "elevated"
+    },
+
+    "emergency": {
+      "selected_modules": [
+        "emergency_backup",
+        "grounding_layer"
+      ],
+      "response_mode": "emergency"
+    }
+  }
+}

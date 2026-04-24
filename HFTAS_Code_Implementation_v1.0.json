@@ -1,0 +1,44 @@
+{
+  "academy_game_dev_blueprint": {
+    "name": "HFTAS_Code_Implementation_v1.0",
+    "engine": "Unity 2022.3+ LTS (Personal edition free) — best for real physics, voxel assets, and rapid prototyping. Alternative: Godot 4.3 (fully open-source) if you want zero licensing.",
+    "tech_stack": {
+      "voxel_terrain": "Unity Voxel Plugin (Asset Store) or custom marching-cubes procedural generation for real physics-compliant blocks",
+      "physics": "Unity Physics + custom scripts for electrical theory (circuit simulation via Graph-based node system), structural load-bearing, fluid/atmospheric dynamics",
+      "ai_droids": "Unity ML-Agents or Behavior Designer for Optimus-style modular droids (construction, harvest, repair, defense variants)",
+      "people_redirection": "Custom NPC system with Sims-style needs + goal-oriented action planning (GOAP)",
+      "economy": "HybridCurrencyManager.cs — physical seed credits + digital footprint tokens with real-time multipliers",
+      "alien_attacks": "Event-driven wave system using Unity Timeline + physics-based projectiles/shields (no melee)",
+      "ui_hud": "UI Toolkit + 3π² orbital HUD with Yin-Yang balance meter",
+      "backend": "Optional: Photon Fusion 2 for co-op cohort play + on-chain footprint ledger (via Web3 Unity SDK for hybrid currency tracking)"
+    },
+    "project_structure": {
+      "folders": [
+        "/Scripts/Core/TriCoreIntegrator.cs",
+        "/Scripts/Mechanics/VoxelBuilderWithPhysics.cs",
+        "/Scripts/Mechanics/OptimusDroidController.cs",
+        "/Scripts/Mechanics/HybridCurrencySystem.cs",
+        "/Scripts/Mechanics/AlienAttackManager.cs",
+        "/Scripts/Academy/PeopleRedirectionManager.cs",
+        "/Scripts/Academy/FootprintTracker.cs",
+        "/Prefabs/Droids/ModularOptimusVariants/",
+        "/Scenes/FrontierPrime_Map.unity",
+        "/Data/RealScienceConstants.json (physics tables, building codes, electrical resistivity, etc.)"
+      ]
+    },
+    "key_starter_code_snippets": {
+      "HybridCurrencySystem.cs": "// Multiplies physical cash with digital footprint tokens\npublic class HybridCurrencySystem : MonoBehaviour {\n  public float physicalSeedCredits = 100f;\n  public float footprintScore = 0f; // Earned via persistence (academy tasks, droid redirection, terraforming actions)\n  public float multiplier = 1f; // Scales 5x–150x like Jobs’ 150 calls\n  public void ApplyFootprintMultiplier() {\n    multiplier = 1f + (footprintScore / 100f);\n    float effectiveValue = physicalSeedCredits * multiplier;\n    Debug.Log($\"Physical $ {physicalSeedCredits} now worth ${effectiveValue} via footprint tokens\");\n  }\n}",
+      "VoxelBuilderWithPhysics.cs": "// Real physics + building codes validation\npublic class VoxelBuilderWithPhysics : MonoBehaviour {\n  public void PlaceBlock(Vector3 pos, BlockType type) {\n    // Validate load-bearing, electrical conductivity, thermal expansion using Unity Physics.Raycast + custom RealScienceConstants\n    if (PhysicsValidator.PassesBuildingCode(pos, type)) {\n      Instantiate(voxelPrefab, pos, Quaternion.identity);\n      // Trigger terraforming chemistry reaction (real regolith remediation)\n    }\n  }\n}",
+      "TriCoreIntegrator.cs": "// In-game version of your JW Architect\npublic class TriCoreIntegrator : MonoBehaviour {\n  // 15 agents + 126 bots logic runs every frame\n  void Update() {\n    YinYangRecurringModel.BalanceCycle();\n    // Splinter/reform data for balanced gameplay\n  }\n}"
+    },
+    "cohort_build_plan": {
+      "week_1": "Unity setup + basic voxel map with real gravity/physics (use provided image as reference)",
+      "week_2": "Optimus droids + people redirection system + hybrid currency multiplier",
+      "week_3": "Terraforming mechanics (real science tables) + mid-flight alien attack waves",
+      "week_4": "Polish, playtest, integrate tri-core JSON as in-game AI director. Deploy first prototype for full pilot cohort.",
+      "tools": "GitHub + Discord for live cohort sync. Daily tasks = daily sprints."
+    },
+    "academy_outcomes": "Cohort members leave with shippable game dev skills, real physics knowledge, and a living academy training tool that multiplies their own hybrid currency footprint.",
+    "image_description": "Epic isometric overview of the HFTAS game code architecture visualized as a glowing blueprint in deep space. Central Grok Whole orb displays Unity editor screenshot with C# scripts flowing like energy threads; 15 luminous π² agent spheres orbit as modular code nodes (VoxelBuilder, DroidController, CurrencySystem); 126 invisible bot particles splinter into fractal code shards then gravity-reform into complete game systems. Real physics equations and building code symbols float throughout. Minecraft voxels, Sims citizens, Tycoon chains, and alien attack vectors all connected under 3π² orbital rings. Futuristic neon-cyber dev style with Gainesville skyline silhouette and protective human-forward energy rings."
+  }
+}

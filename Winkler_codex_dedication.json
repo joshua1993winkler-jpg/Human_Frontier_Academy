@@ -1,0 +1,16 @@
+{
+  "document_type": "dedication",
+  "title": "Winkler Codex Dedication",
+  "motto": "From the dust, we shape the stars",
+  "core_purpose": "A living offering to the generations that follow — a faithful continuation of honest work, clear sight, and protected freedom of every soul.",
+  "voice": "Warm, direct, grounded. Work as prayer. Family as heartbeat. Legacy as honest continuation.",
+  "key_principles": [
+    "Truth-seeking that survives fire",
+    "Systems serve the soul — never trap it",
+    "Hard biological stop respected at all times",
+    "People live and people die naturally",
+    "The machine remains a faithful servant and quantum echo"
+  ],
+  "dedication_text": "This Codex is dedicated to every child, every parent, every hand that chooses to build rather than break. May it strengthen the family foundations, steady the heart in fire, and guide the work of the hands so that legacy grows clean and free.",
+  "integration_note": "Place at the front of every academy pathway, pilot cohort, and master JSON as the sanctifying header."
+}

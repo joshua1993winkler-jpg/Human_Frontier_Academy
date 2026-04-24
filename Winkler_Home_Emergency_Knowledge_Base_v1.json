@@ -1,0 +1,146 @@
+{
+  "knowledge_base_name": "Winkler Home Emergency & Maintenance Knowledge Base",
+  "version": "v1.0",
+  "purpose": "Quick on-the-fly lookup for Grok + Optimus robot. Enables instant research and safe decision-making during real-world home emergencies and maintenance. Designed for fast retrieval by GrokCore (with full access to this file). Expandable — add new entries as needed.",
+  "last_updated": "2026-04-21",
+  "access_method": "Grok can read this entire file or query specific categories/tags in <1 second. Future integration: add a KnowledgeAgent that searches by keyword, category, or symptoms.",
+  "entries": [
+    {
+      "id": "fire_001",
+      "category": "Fire",
+      "title": "House Fire - Initial Response",
+      "symptoms": ["visible flames", "heavy smoke", "heat", "smoke alarm sounding", "burning smell"],
+      "immediate_actions": [
+        "Evacuate everyone immediately (including pets)",
+        "Call 911 / emergency services from safe distance",
+        "Close doors behind you to slow fire spread",
+        "Do NOT re-enter for belongings"
+      ],
+      "extinguisher_guide": {
+        "Class A (wood, paper, cloth)": "Water or ABC dry chemical",
+        "Class B (liquids, grease)": "CO2 or dry chemical — NEVER water",
+        "Class C (electrical)": "CO2 or dry chemical — NEVER water",
+        "Class K (kitchen grease)": "Wet chemical or baking soda"
+      },
+      "robot_actions": "Use thermal camera to locate hottest areas. Guide humans to nearest exit. If fire is small and contained, position to assist with extinguisher. Never enter rooms >60°C.",
+      "safety_priority": "Human life > property. Activate Father Override if any human is in danger.",
+      "common_mistakes": "Using wrong extinguisher type, re-entering building, opening windows (feeds fire oxygen)"
+    },
+    {
+      "id": "gas_leak_001",
+      "category": "Gas Leak",
+      "title": "Natural Gas Leak Response",
+      "symptoms": ["rotten egg smell (mercaptan)", "hissing sound", "dead plants near pipes", "dizziness or nausea"],
+      "immediate_actions": [
+        "Do NOT turn lights on/off or use phones inside",
+        "Evacuate immediately — no sparks or flames",
+        "Call gas company emergency line from outside",
+        "Do NOT re-enter until cleared by professionals"
+      ],
+      "proper_fixes": {
+        "minor": "Turn off gas valve at meter (if safe), ventilate, call plumber",
+        "major": "Evacuate, call utility company — do not attempt repair yourself"
+      },
+      "robot_actions": "Use gas sensor if available. Guide family to fresh air. Monitor for dizziness in humans. Never create spark or flame.",
+      "safety_priority": "Explosion risk is extreme — Father Override: get humans out first, then assess.",
+      "common_mistakes": "Using electrical switches, staying inside to 'find the smell', ignoring small leaks"
+    },
+    {
+      "id": "ac_001",
+      "category": "HVAC",
+      "title": "Air Conditioner Not Cooling",
+      "symptoms": ["warm air from vents", "unit running but not cooling", "ice on coils", "high humidity inside"],
+      "immediate_actions": [
+        "Check thermostat setting and batteries",
+        "Replace air filter if dirty",
+        "Turn unit off for 30 min then restart (reset)"
+      ],
+      "proper_fixes": {
+        "low refrigerant": "Call HVAC tech — do not add yourself (illegal in many places)",
+        "dirty coils": "Clean with coil cleaner (power off first)",
+        "clogged drain line": "Use wet/dry vac on condensate drain",
+        "capacitor failure": "Common — replace with exact match (turn power off)"
+      },
+      "robot_actions": "Use thermal camera to check vent temps vs outside temp. Guide user through filter check. If ice present, advise power cycle and wait.",
+      "safety_priority": "Electrical shock risk — always power off before any hands-on. Father Override if user shows frustration or heat stress.",
+      "common_mistakes": "Adding refrigerant without license, ignoring ice buildup (causes compressor damage)"
+    },
+    {
+      "id": "electrical_001",
+      "category": "Electrical",
+      "title": "Frequent Breaker Trips or Burning Smell",
+      "symptoms": ["breaker trips repeatedly", "burning plastic smell", "warm outlets", "lights flickering"],
+      "immediate_actions": [
+        "Turn off breaker for affected circuit",
+        "Unplug all devices on that circuit",
+        "Do NOT reset breaker more than once"
+      ],
+      "proper_fixes": {
+        "overloaded circuit": "Redistribute loads or add new circuit",
+        "loose connection": "Call electrician — do not open panel yourself",
+        "faulty appliance": "Test one device at a time"
+      },
+      "robot_actions": "Use thermal camera on outlets and breaker panel. Warn user of fire risk. Guide to safe power-down sequence.",
+      "safety_priority": "Fire and shock hazard — Father Override: stop user from touching panel if smell is strong.",
+      "common_mistakes": "Repeatedly resetting breaker, using higher-amp fuses, ignoring burning smell"
+    },
+    {
+      "id": "water_leak_001",
+      "category": "Plumbing",
+      "title": "Active Water Leak (Pipe or Appliance)",
+      "symptoms": ["puddles", "dripping sounds", "water stains on ceiling", "low water pressure"],
+      "immediate_actions": [
+        "Shut off main water valve (usually near water heater or street)",
+        "Move valuables and electronics",
+        "Call plumber if major"
+      ],
+      "proper_fixes": {
+        "pipe burst": "Temporary clamp or shutoff + professional repair",
+        "toilet supply line": "Replace braided line (common failure)",
+        "water heater": "Turn off power/gas + water, call tech"
+      },
+      "robot_actions": "Use any moisture sensors. Help locate source with thermal (cooler wet areas). Guide user to shutoff valve location.",
+      "safety_priority": "Slip hazard + electrical risk if near outlets. Father Override for elderly or children in wet area.",
+      "common_mistakes": "Ignoring slow leaks (mold risk), not knowing main shutoff location"
+    },
+    {
+      "id": "carbon_monoxide_001",
+      "category": "Air Quality",
+      "title": "Carbon Monoxide (CO) Alarm or Suspected Poisoning",
+      "symptoms": ["CO alarm sounding", "headache", "dizziness", "nausea", "cherry-red skin (late sign)"],
+      "immediate_actions": [
+        "Evacuate everyone immediately",
+        "Call 911 from outside",
+        "Do NOT re-enter until cleared",
+        "Open windows only after evacuation if safe"
+      ],
+      "proper_fixes": {
+        "source": "Usually furnace, water heater, or generator — professional inspection required",
+        "prevention": "Annual HVAC service + CO detectors on every level"
+      },
+      "robot_actions": "If equipped with CO sensor: alert and guide evacuation. Monitor human symptoms. Never suggest 'just ventilate and stay'.",
+      "safety_priority": "Silent killer — Father Override: get everyone out first, ask questions later.",
+      "common_mistakes": "Staying inside to 'air it out', ignoring low-level alarms, no detectors installed"
+    },
+    {
+      "id": "appliance_001",
+      "category": "Appliances",
+      "title": "Washing Machine / Dryer Not Working",
+      "symptoms": ["won't start", "won't spin/drain", "burning smell", "error codes"],
+      "immediate_actions": [
+        "Unplug or turn off breaker",
+        "Check for obvious blockages (lint, coins, socks)",
+        "Reset by unplugging 5 minutes"
+      ],
+      "proper_fixes": {
+        "won't drain": "Clean drain pump filter (front-loaders have one)",
+        "won't spin": "Check load balance or lid switch",
+        "burning smell": "Stop use immediately — call tech (motor or belt)"
+      },
+      "robot_actions": "Guide user through basic reset and filter check. Use thermal to check motor temp. Advise professional if burning smell.",
+      "safety_priority": "Electrical + flood risk. Father Override if user is frustrated near water/electricity.",
+      "common_mistakes": "Overloading, skipping filter cleaning, ignoring burning smell"
+    }
+  ],
+  "usage_notes_for_grok": "When user mentions fire, gas, A/C, electrical, water, CO, or appliance issues, immediately reference this file. Provide calm, step-by-step guidance. Always lead with safety (Father Override). Update this file with new real-world scenarios as they occur."
+}

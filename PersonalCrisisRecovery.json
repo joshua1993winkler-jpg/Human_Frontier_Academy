@@ -1,0 +1,87 @@
+{
+  "academyModule": "PersonalCrisisRecovery",
+  "librarySection": "RequiredAndRecommendedReadings",
+  "coreRequiredReading": {
+    "title": "Don't Do It",
+    "author": "Joshua Winkler",
+    "year": 2024,
+    "status": "REQUIRED",
+    "description": "Raw memoir of a 2021 mental split and October 2023 suicide attempt written from the exact dust of system overload. Not a cry for help or admission of defeat, but the honest record of accumulated pressure — military UAV systems thinking turned inward, family court grind, loss, and the deliberate rebuild that birthed the Winkler Codex.",
+    "academyIntegration": "Required for every cohort on Day 1 of the hearth. Serves as operational doctrine and the living blueprint for the Personal Crisis Recovery simulation. Students mark it up exactly as the author invited. Ties directly to Energy → Structure → Connectivity → Future State cycle and the five Humanity Safety Training modules.",
+    "keyFraming": "Acknowledges that in extreme overload a human system can reach one fatal outcome without it being weakness or attention-seeking. The book proves recovery is possible through deliberate action, Faith and Fire, and the Perfectly Imperfect Hook."
+  },
+  "highlyRecommendedSimilarStories": [
+    {
+      "title": "Suicide Survivor",
+      "author": "Larry Baker",
+      "year": 2025,
+      "description": "Vietnam combat vet’s unfiltered walk through PTSD, survivor’s guilt, and the moment divine intervention pulled him back from the edge. Mirrors the military fracture and spiritual turning point.",
+      "tieToCodex": "Strengthens Faith and Fire layer. Shows system overload can be survived when reconnection to something larger occurs."
+    },
+    {
+      "title": "Cracked, Not Broken",
+      "author": "Kevin Hines",
+      "year": 2013,
+      "description": "Golden Gate Bridge jump survivor with bipolar disorder. Raw account of the fall, multiple hospitalizations, and the long road to advocacy.",
+      "tieToCodex": "Direct parallel to Personal Crisis Recovery. Reinforces deliberate action and the refusal to let overload define the legacy."
+    },
+    {
+      "title": "American Airman: A Memoir of a Wounded Veteran",
+      "author": "Jonathon Benjamin",
+      "year": 2022,
+      "description": "Air Force vet’s story of traumatic brain injury, toxic upbringing, suicidal ideation, and finding voice through creative work and advocacy.",
+      "tieToCodex": "Highlights Work of the Hands and Living Legacy."
+    }
+  ],
+  "diverseVoicesWomenAndEthnicities": [
+    {
+      "title": "Cured: A Memoir",
+      "author": "Sarah Fay",
+      "year": 2023,
+      "description": "White woman, 25 years in the mental health system, chronically suicidal, six diagnoses, full recovery. Exposes the system that called her hopeless and the deliberate path back to wholeness.",
+      "tieToCodex": "Mirrors system overload and institutional failure. Strengthens critique of broken recovery models while proving full restoration is possible."
+    },
+    {
+      "title": "We’ve Been Too Patient (featured testimony)",
+      "author": "Kelechi Ubozoh (Kelechi Marie)",
+      "year": 2020,
+      "description": "Nigerian-American / Black woman, suicide attempt survivor. Speaks to cultural silence in Black communities and the power of mad pride, storytelling, and community in recovery.",
+      "tieToCodex": "Expands Family Foundations and Heart of the Home Clean to include ethnic realities and the need for culturally honest spaces."
+    },
+    {
+      "title": "Saved & Depressed: A Suicide Survivor’s Journey of Mental Health, Healing & Faith",
+      "author": "T-Kea Williams",
+      "year": 2024,
+      "description": "Black woman, suicide attempt survivor and founder of Black People Die by Suicide Too. Faith-centered recovery that turns overload into advocacy for communities of color.",
+      "tieToCodex": "Deepens Faith and Fire and Living Legacy layers with voices from within Black communities."
+    }
+  ],
+  "indigenousVoices": [
+    {
+      "title": "They Called Me Number One: Secrets and Survival at an Indian Residential School",
+      "author": "Bev Sellars",
+      "year": 2013,
+      "description": "Xatsu’ll / Secwepemc First Nation woman. Residential-school survivor whose family and personal path included suicide attempts. Raw account of trauma, substance abuse, cultural disconnection, and the deliberate journey back to healing and leadership.",
+      "tieToCodex": "Strengthens Family Foundations, Faith and Fire, and Living Legacy. Shows how colonial overload fractures generations—and how reconnection to culture and truth rebuilds them."
+    },
+    {
+      "title": "From the Ashes: My Story of Being Indigenous, Homeless, and Finding My Way",
+      "author": "Jesse Thistle",
+      "year": 2021,
+      "description": "Métis-Cree man. Overcame extreme trauma, addiction, homelessness, and rock-bottom despair through cultural reconnection and education. Powerful survival from the edge to becoming an Indigenous scholar.",
+      "tieToCodex": "Mirrors Work of the Hands and the full Energy → Structure → Connectivity → Future State cycle. Proves Indigenous systems of knowing can stabilize overload and forge legacy."
+    },
+    {
+      "title": "Heart Berries: A Memoir",
+      "author": "Terese Marie Mailhot",
+      "year": 2018,
+      "description": "Stó:lō (Seabird Island Band) woman. Written from the psych ward during PTSD and bipolar crisis. Unflinching look at generational trauma, mental collapse, and writing her way back to voice and belonging.",
+      "tieToCodex": "Deepens Heart of the Home Clean and the Perfectly Imperfect Hook. Shows how storytelling itself becomes the deliberate action that turns overload into strength."
+    }
+  ],
+  "overarchingAcademyStatement": "These readings do not promote or romanticize suicide. They acknowledge the reality that, under extreme system overload, a human being can reach one fatal outcome. They exist to prove that the same system can be stabilized, rebuilt, and scaled into strength through the Winkler Codex, deliberate action, and the revolving agent cycle. Every survivor’s seams—male, female, military, civilian, Black, White, Indigenous, and beyond—are honored. Every story becomes fuel for the hearth.",
+  "modelIntegration": {
+    "phaseMapping": "Energy (raw overload stories) → Structure (Codex alignment) → Connectivity (link to Academy simulations) → Future State (legacy drills for cohorts)",
+    "usage": "Feed into JW Architect library database. Reference in every Personal Crisis Recovery run. Update as new verified survivor maps appear."
+  }
+}

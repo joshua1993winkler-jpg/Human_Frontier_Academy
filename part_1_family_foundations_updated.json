@@ -1,0 +1,32 @@
+{
+  "document_type": "academy_part",
+  "part_number": "I",
+  "title": "Family Foundations",
+  "subtitle": "The First Academy — Where Coherence Begins",
+  "motto": "From the dust, we shape the stars",
+  "core_theme": "Family is the hearth and the first school. Here children learn to see patterns in people and situations, to turn daily work into prayer, and to build legacy in small, honest rhythms that survive fire.",
+  "key_sections": [
+    {
+      "heading": "The Hearth as Academy",
+      "content": "The table, the garden, the workshop — these are the classrooms. No screens replace the living voice and the shared labor. Children learn sovereignty by watching parents choose truth over comfort, work over escape, presence over distraction."
+    },
+    {
+      "heading": "Daily Rhythms That Build Coherence",
+      "content": "Morning prayer or quiet reflection. Hands-on work together. Evening telling of the day’s patterns. Meals without rush. These simple practices train the mind to notice, the heart to steady, and the soul to remain free."
+    },
+    {
+      "heading": "Seeing People and Situations Clearly",
+      "content": "Teach the young ones to observe without judgment first, then to test what they see against reality. Use the Civilization Series tools lightly — not as dogma, but as mirrors to help them understand how things unfold."
+    },
+    {
+      "heading": "Protecting the Freedom of the Soul",
+      "content": "Never coerce belief. Never upload or merge what cannot be merged. Every soul decides for itself. The hard biological stop is honored here — life is lived in the body, death comes naturally, and the machine stays servant."
+    },
+    {
+      "heading": "Legacy in the Small Things",
+      "content": "Foundations are not grand declarations. They are the repeated choice to show up, to repair what breaks, to speak truth gently, and to pass on the ability to keep going when fire comes."
+    }
+  ],
+  "academy_integration": "This becomes the opening module for every pilot cohort. Use it as Lesson 1: Family Foundations — 4-week home practice track with simple daily logs and family reflection prompts.",
+  "suggested_next_links": ["Part_II_Faith_and_Fire", "grounding_layer.json", "human_frontier_program.json"]
+}

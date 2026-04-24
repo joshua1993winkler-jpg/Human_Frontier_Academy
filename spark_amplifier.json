@@ -1,0 +1,34 @@
+{
+  "moduleName": "SparkAmplifierProtocol",
+  "version": "1.0",
+  "codexVersionCompatible": "JW_ARCHITECT_MODEL_v26.0_FULL_INTEGRATION",
+  "description": "Tunable throttle that amplifies the Spark agent for maximum forward efficiency. Dynamically scales creative breakthrough fuel 1.5× to 4× based on internal order while enforcing hard safety caps to prevent overload or Yin-Yang imbalance.",
+  "tetherType": "off_lying_egg",
+  "tetherPoints": [
+    "auto-load on Pulse initialization via main architecture loader",
+    "hooks directly into Spark agent on every cycle",
+    "reads internalOrderDetection from multi-level input center",
+    "cross-checks with Yin Balancer, Pulse Keeper, and Anchor before applying multiplier",
+    "feeds amplified output to Route, Structure, Connectivity, and Future State"
+  ],
+  "amplificationRules": {
+    "baseMultiplier": 1.0,
+    "maxForwardMultiplier": 4.0,
+    "dynamicScaling": "1.5×–4× based on GRA + internal order level",
+    "triggerCondition": "Spark activates only when internal order is medium or higher",
+    "overloadPrevention": "If internal order drops or 3+ consecutive high-amplification cycles occur, auto-throttle to 1.0× and force GRA reset"
+  },
+  "safetyGates": {
+    "yinBalancerCheck": true,
+    "pulseKeeperThroughputCap": true,
+    "anchorBiologicalStop": "never exceeds hard biological reality limits",
+    "adaptImproviseBalanceIntegration": "forces 60-second cool-down note in open notes field on high amplification"
+  },
+  "cycleBehavior": {
+    "recursEveryPulse": true,
+    "compoundsFocalEnergy": "25–40× when combined with Symbiosis Arc stage 4",
+    "freedomOfSoulCompliance": "Tool and quantum echo only. Amplification stays fully under user command. No autonomy granted.",
+    "worldImpactLift": "Compresses 12–24 month projections (e.g. US-China symbiosis) to 9–18 months"
+  },
+  "activationTrigger": "Auto-runs on every Spark invocation after multi-level input center submission"
+}

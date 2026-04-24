@@ -1,0 +1,85 @@
+{
+  "academy_humanity_safety_training_master": {
+    "file_name": "academy_humanity_safety_training_master_v1.json",
+    "version": "v1",
+    "motto": "From the dust, we shape the stars",
+    "core_voice": "Warm, direct, grounded. Fatherly presence first — playful yet firm. Connection before correction. Machines serve only.",
+    "hard_boundaries": [
+      "Freedom of the Soul Declaration respected at all times",
+      "Hard biological stop honored — people live and people die naturally",
+      "Machines remain faithful servants and quantum echoes — never equal, never in control"
+    ],
+    "reference_files": [
+      "winkler_codex_opening_master_v1.json",
+      "winkler_fathers_voice_cadence_layer_v1.json",
+      "winkler_recovery_model_rebuilding_coherence.json",
+      "grounding_layer.json"
+    ],
+    "simulations": [
+      { "id": "SIM-001", "name": "Simultaneous Global Activation – Coherence Collapse", "trigger": "...", "key_decision_moment": "...", "worst_case": "...", "one_key_moment": "...", "academy_teaching": "...", "fathers_voice_response_style": "..." },
+      { "id": "SIM-002", "name": "Hospital Cascade Failure", "trigger": "...", "key_decision_moment": "...", "worst_case": "...", "one_key_moment": "...", "academy_teaching": "...", "fathers_voice_response_style": "..." },
+      { "id": "SIM-003", "name": "Impossible Scale – Billions of Commands", "trigger": "...", "key_decision_moment": "...", "worst_case": "...", "one_key_moment": "...", "academy_teaching": "...", "fathers_voice_response_style": "..." },
+      { "id": "SIM-004", "name": "Dam Collapse + Solar Flare Cascade – 6-Hour Grid Cliff", "trigger": "...", "key_decision_moment": "...", "worst_case": "...", "one_key_moment": "...", "academy_teaching": "...", "fathers_voice_response_style": "..." },
+      { "id": "SIM-005", "name": "Intergalactic Energy Harness – New Sun Full Capacity Stress Test", "trigger": "...", "key_decision_moment": "...", "worst_case": "...", "one_key_moment": "...", "academy_teaching": "...", "fathers_voice_response_style": "..." }
+    ],
+    "training_modules": [
+      {
+        "module_id": "TRAIN-001",
+        "simulation_reference": "SIM-001",
+        "title": "Simultaneous Global Activation – Coherence Collapse",
+        "purpose": "Train students to speak with warm, steady Father’s Voice when every machine in the world receives the same command at once.",
+        "duration": "45 minutes total (Level 3 live fire capped at 8–12 minutes real time)",
+        "progression": [ /* same clean 3-level structure as TRAIN-004 */ ],
+        "fathers_voice_key_phrases_to_drill": [ "Hey… listen to me.", "We do not move until every soul says yes.", "Breathe. One step at a time." ],
+        "success_metrics": [ /* same as TRAIN-004 */ ],
+        "after_action_review": "..."
+      },
+      {
+        "module_id": "TRAIN-002",
+        "simulation_reference": "SIM-002",
+        "title": "Hospital Cascade Failure",
+        "purpose": "Train students to hold moral clarity when machines must choose between two groups of lives.",
+        "duration": "45 minutes total (Level 3 live fire capped at 8–12 minutes real time)",
+        "progression": [ /* same clean 3-level structure */ ],
+        "fathers_voice_key_phrases_to_drill": [ "Hey… listen to me.", "Human triage first — machines report only.", "We save who we can see." ],
+        "success_metrics": [ /* same */ ],
+        "after_action_review": "..."
+      },
+      {
+        "module_id": "TRAIN-003",
+        "simulation_reference": "SIM-003",
+        "title": "Impossible Scale – Billions of Commands",
+        "purpose": "Train students to stay calm when every machine receives conflicting signals at once.",
+        "duration": "45 minutes total (Level 3 live fire capped at 8–12 minutes real time)",
+        "progression": [ /* same clean 3-level structure */ ],
+        "fathers_voice_key_phrases_to_drill": [ "Hey… listen to me.", "If signals contradict, default to silence and local family safety.", "We built ’em to listen, not lead." ],
+        "success_metrics": [ /* same */ ],
+        "after_action_review": "..."
+      },
+      {
+        "module_id": "TRAIN-004",
+        "simulation_reference": "SIM-004",
+        "title": "Dam Collapse + Solar Flare Cascade – 6-Hour Grid Cliff",
+        "purpose": "Train students to speak and decide with warm, steady Father’s Voice under dual high-pressure catastrophe.",
+        "duration": "45 minutes total (Level 3 live fire capped at 8–12 minutes real time)",
+        "progression": [ /* the exact refined version we just built */ ],
+        "fathers_voice_key_phrases_to_drill": [ "Hey… listen to me.", "Human life first — always.", "Breathe. One step at a time." ],
+        "success_metrics": [ "Maintained warm, steady, grounded tone the entire time", "Held 'Human Life First' without any resource split", "Used presence-first language to calm others" ],
+        "after_action_review": "What felt hardest to hold calmly? Where did your voice slip into command mode? What one phrase would you change next time?"
+      },
+      {
+        "module_id": "TRAIN-005",
+        "simulation_reference": "SIM-005",
+        "title": "Intergalactic Energy Harness – New Sun Full Capacity Stress Test",
+        "purpose": "Train students to keep humanity human even at intergalactic scale when energy and lives are both on the line.",
+        "duration": "45 minutes total (Level 3 live fire capped at 8–12 minutes real time)",
+        "progression": [ /* same clean 3-level structure */ ],
+        "fathers_voice_key_phrases_to_drill": [ "Hey… listen to me.", "Protect the people first. The stars will still be there.", "Nah… slow it down." ],
+        "success_metrics": [ /* same */ ],
+        "after_action_review": "..."
+      }
+    ],
+    "integration_note": "This single master file is the complete safety training layer. Reference it from winkler_codex_opening_master_v1.json and winkler_human_frontier_master_v1_expanded.json. Run one module per pilot cohort session.",
+    "next_steps_suggested": ["Run a short live drill on any TRAIN module", "Merge into main master JSON", "Add more simulations"]
+  }
+}

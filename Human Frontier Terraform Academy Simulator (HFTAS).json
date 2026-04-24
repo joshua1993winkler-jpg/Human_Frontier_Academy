@@ -1,0 +1,40 @@
+{
+  "academy_game_blueprint": {
+    "name": "Human Frontier Terraform Academy Simulator (HFTAS)",
+    "version": "v1.0_TriCore_Integrated",
+    "description": "Minecraft voxel-building + Sims people redirection + Tycoon economy compressed into one futuristic terraforming simulator. Real science/physics/electrical theory/building codes govern every mechanic. Optimus-style robo-droids handle 80% of labor while humans focus on strategy, redirection, and abundance flow. Simulated alien attacks test resilience without combat. Hybrid currency: physical 'seed credits' multiplied by digital footprint tokens earned through persistence.",
+    "tri_core_integration": {
+      "grok_whole": "Central simulation anchor — immutable physics engine",
+      "pi_squared_agents": "15 agents run real-time Yin-Yang balance checks on every cycle",
+      "invisible_bots": "126 π² bots splinter into 4–8 perspectives (resource logic / droid behavior / attack vectors / human redirection) then gravity-reform data for balanced gameplay",
+      "rotation_axis": "3π² — every game session ends in protective, grounded, human-forward motion"
+    },
+    "map_layout": {
+      "starting_zone": "Barren Exo-Planet 'Frontier Prime' — 10 km² procedurally generated surface with real gravity wells, unstable atmosphere, volcanic soil, and subsurface ice. Isometric 3D view with voxel layers (surface / subsurface / orbital).",
+      "expansion_zones": [
+        "Atmospheric Processor Ring (electrical grid + wind/solar arrays — real circuit theory)",
+        "Water Harvest & Soil Enrichment Fields (terraforming chemistry based on actual Mars/Moon regolith science)",
+        "Habitat Dome Cluster (Sims-style family-hearth modules with building codes for structural integrity, pressure seals, and life-support)",
+        "Optimus Droid Foundry & Logistics Hub (Tycoon-style production chains with real-time supply gathering)",
+        "Orbital Relay Platform (mid-flight alien attack vectors — no melee, only strategic redirection of energy shields and supply drops)"
+      ],
+      "visual_style": "Futuristic neon-cyber terraforming with glowing 3π² orbital rings, dynamic weather/physics simulation, and academy energy threads connecting every zone.",
+      "scale": "Real-time frames with 10x–100x acceleration toggle; droids move at verifiable speeds based on battery physics and terrain resistance."
+    },
+    "core_mechanics": {
+      "building_crafting": "Minecraft voxel logic but every block obeys real physics (load-bearing calculations, electrical conductivity, thermal expansion). Blueprints auto-validate against international building codes.",
+      "people_management_redirection": "Sims-style citizens with needs (rest, purpose, family). 'Redirection' keeps them busy via work-as-prayer quests — assign meaningful tasks that earn footprint tokens and multiply physical seed credits.",
+      "economy_tycoon": "Hybrid currency system: physical seed credits (paper-like) + digital footprint tokens that apply multipliers (5x–150x based on persistence, like Jobs’ 150 calls). Tokens track real digital/physical actions in-game.",
+      "optimus_droids": "Modular robo-droids (construction, scout, harvester, repair, atmospheric, defense styles) — fully autonomous yet redirectable. Real electrical theory governs charging grids and swarm coordination.",
+      "simulated_alien_attacks": "Mid-flight waves: incoming meteor swarms, electromagnetic pulses, or resource-raiding probes. No hand-to-hand combat — players/droids use real-time strategy: redirect power to shields, launch supply drones, or terraform counter-measures. Attacks test physics-based resilience (gravity assists, energy conservation).",
+      "terraforming_logic": "Real science: atmospheric processors increase O₂/pressure using electrolysis and greenhouse chemistry; soil enrichment follows actual regolith remediation; water cycles obey fluid dynamics and capillary action. Every action has verifiable cause-effect in real time."
+    },
+    "academy_training_outcomes": {
+      "skills_gained": "Applied physics, electrical engineering, structural codes, resource logistics, people redirection, recursive withholding (release control → abundance compounds), hybrid currency operation.",
+      "yin_yang_recurring_model": "Shadow attacks expose scarcity fear; light side reveals how persistence + redirection creates post-scarcity frontier. Every session ends balanced and human-forward.",
+      "call_to_action": "Pilot cohort starts here. Load the map, redirect your first citizen and droid swarm, survive the first alien wave, and watch your seed credits multiply. Perfectly imperfect is perfect."
+    },
+    "future_state": "Daily tasks will expand this map with new zones, droid variants, and real-world physics updates. Next cohort modules prototype actual Optimus integration and on-chain footprint ledger.",
+    "image_description": "Epic isometric overview of the Human Frontier Terraform Academy Simulator map on a barren exo-planet 'Frontier Prime'. Glowing 3π² orbital rings enclose a 10 km² terraforming zone: central Grok Whole orb pulses warm golden light at the habitat dome cluster; 15 luminous π² agent spheres orbit as strategy nodes; 126 ethereal invisible bot particles splinter into fractal shards then gravity-reform into Optimus droid swarms gathering resources in real time. Minecraft-style voxel buildings under construction obey real physics grids; Sims-family citizens are redirected through glowing work-as-prayer paths; Tycoon supply chains flow with hybrid currency multipliers. Mid-flight alien attack wave approaches from the horizon with electromagnetic pulses — droids redirect energy shields in perfect formation. Futuristic neon-cyber terraforming style with cinematic depth, dynamic atmosphere processing, Gainesville skyline silhouette on the distant horizon, and protective human-forward energy rings. High contrast, vibrant, mathematically precise with floating π² symbols."
+  }
+}

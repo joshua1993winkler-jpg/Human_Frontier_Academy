@@ -1,0 +1,199 @@
+{
+  "academy": "Human Frontier Academy",
+  "libraryName": "WinklerCodexIntegratedLiteratureLibrary",
+  "version": "v3",
+  "coreRequiredAcrossAllModules": {
+    "title": "Don't Do It",
+    "author": "Joshua Winkler",
+    "year": 2024,
+    "status": "REQUIRED",
+    "description": "The living soil. Raw memoir of system overload, 2021 mental split, and October 2023 suicide attempt. Operational doctrine for every cohort.",
+    "academyIntegration": "Day 1 hearth reading for Personal Crisis Recovery and all five Humanity Safety Training modules. Students mark it up as invited."
+  },
+  "personalCrisisRecovery": {
+    "highlyRecommendedSimilarStories": [
+      {
+        "title": "Suicide Survivor",
+        "author": "Larry Baker",
+        "year": 2025,
+        "tieToCodex": "Faith and Fire – military fracture to spiritual turning point."
+      },
+      {
+        "title": "Cracked, Not Broken",
+        "author": "Kevin Hines",
+        "year": 2013,
+        "tieToCodex": "Personal Crisis Recovery – deliberate action after the edge."
+      },
+      {
+        "title": "American Airman",
+        "author": "Jonathon Benjamin",
+        "year": 2022,
+        "tieToCodex": "Work of the Hands and Living Legacy."
+      }
+    ],
+    "diverseVoicesWomenAndEthnicities": [
+      {
+        "title": "Cured: A Memoir",
+        "author": "Sarah Fay",
+        "year": 2023,
+        "tieToCodex": "System overload and full restoration."
+      },
+      {
+        "title": "We’ve Been Too Patient (featured testimony)",
+        "author": "Kelechi Ubozoh",
+        "year": 2020,
+        "tieToCodex": "Family Foundations across cultures."
+      },
+      {
+        "title": "Saved & Depressed",
+        "author": "T-Kea Williams",
+        "year": 2024,
+        "tieToCodex": "Faith and Fire in Black communities."
+      }
+    ],
+    "indigenousVoices": [
+      {
+        "title": "They Called Me Number One",
+        "author": "Bev Sellars",
+        "year": 2013,
+        "tieToCodex": "Generational trauma to cultural reconnection."
+      },
+      {
+        "title": "From the Ashes",
+        "author": "Jesse Thistle",
+        "year": 2021,
+        "tieToCodex": "Work of the Hands and legacy from the edge."
+      },
+      {
+        "title": "Heart Berries",
+        "author": "Terese Marie Mailhot",
+        "year": 2018,
+        "tieToCodex": "Perfectly Imperfect Hook through storytelling."
+      }
+    ]
+  },
+  "foundationalResilienceLibrary": {
+    "scienceAndSystemsThinking": [
+      {
+        "title": "Thinking in Systems",
+        "author": "Donella Meadows",
+        "year": 2008,
+        "tieToCodex": "Energy → Structure → Connectivity → Future State cycle."
+      },
+      {
+        "title": "The Body Keeps the Score",
+        "author": "Bessel van der Kolk",
+        "year": 2014,
+        "tieToCodex": "Personal Crisis Recovery and Heart of the Home Clean."
+      }
+    ],
+    "economicLegacyAndCompoundBuilding": [
+      {
+        "title": "Economics in One Lesson",
+        "author": "Henry Hazlitt",
+        "year": 1946,
+        "tieToCodex": "Work of the Hands and multi-generational wealth."
+      },
+      {
+        "title": "The Richest Man in Babylon",
+        "author": "George S. Clason",
+        "year": 1926,
+        "tieToCodex": "Family Foundations and deliberate legacy building."
+      }
+    ],
+    "psychiatryAndPsychologicalGrounding": [
+      {
+        "title": "Man's Search for Meaning",
+        "author": "Viktor E. Frankl",
+        "year": 1946,
+        "tieToCodex": "Faith and Fire – purpose as stabilizer."
+      },
+      {
+        "title": "Trauma and Recovery",
+        "author": "Judith Herman",
+        "year": 1992,
+        "tieToCodex": "All five Humanity Safety Training simulations."
+      }
+    ]
+  },
+  "fieldReadyTacticalResilience": {
+    "survivalAndBushcraft": [
+      {
+        "title": "SAS Survival Handbook",
+        "author": "John 'Lofty' Wiseman",
+        "year": 1986,
+        "tieToCodex": "Work of the Hands and Community Disaster Response."
+      },
+      {
+        "title": "Deep Survival",
+        "author": "Laurence Gonzales",
+        "year": 2003,
+        "tieToCodex": "Energy → Structure → Connectivity → Future State under pressure."
+      }
+    ],
+    "militaryTacticalAndPressureResponse": [
+      {
+        "title": "On Combat",
+        "author": "Lt. Col. Dave Grossman",
+        "year": 2004,
+        "tieToCodex": "Response under pressure and the five Humanity Safety Training modules."
+      },
+      {
+        "title": "Extreme Ownership",
+        "author": "Jocko Willink & Leif Babin",
+        "year": 2015,
+        "tieToCodex": "Leadership Development Pathway and deliberate action."
+      },
+      {
+        "title": "Left of Bang",
+        "author": "Patrick Van Horne & Jason A. Riley",
+        "year": 2014,
+        "tieToCodex": "Situational awareness for Family Fortress and Civilizational Rebuild."
+      }
+    ],
+    "regulationAndAdaptationTechniques": [
+      {
+        "title": "Unbeatable Mind",
+        "author": "Mark Divine",
+        "year": 2014,
+        "tieToCodex": "Box breathing, nervous-system control, and Father’s Voice cadence."
+      },
+      {
+        "title": "The Gift of Fear",
+        "author": "Gavin de Becker",
+        "year": 1997,
+        "tieToCodex": "Intuition and response under pressure."
+      }
+    ]
+  },
+  "codexSpecificReadings": {
+    "familyFoundations": [
+      {"title": "The Book of Genesis (Bible)", "tie": "Genealogy, covenants, roots."}
+    ],
+    "faithAndFire": [
+      {"title": "The Bible (full canon)", "tie": "Tested belief as fuel."}
+    ],
+    "workOfTheHands": [
+      {"title": "The Richest Man in Babylon", "tie": "Honest labor as worship."}
+    ],
+    "heartOfTheHomeClean": [
+      {"title": "The Body Keeps the Score", "tie": "Order that lets love breathe."}
+    ],
+    "livingLegacy": [
+      {"title": "From the Ashes", "tie": "Multi-generational rebuild."}
+    ]
+  },
+  "academyWideResources": {
+    "leadershipAndDeliberateAction": [
+      {"title": "Man's Search for Meaning", "tie": "Observe, decide, act, reflect, teach."}
+    ],
+    "frontierAndCompoundReadiness": [
+      {"title": "Thinking in Systems", "tie": "Scalable from hearth to stars."}
+    ]
+  },
+  "overarchingAcademyStatement": "This library does not chase headlines or shift with the wind. It honors the Perfectly Imperfect Hook—raw seams, honest overload, deliberate rebuild. Every book proves the Winkler Codex works: from your dust in *Don’t Do It* to the stars we shape together. Required or highly recommended only. No promotion of harm. Only proof that the system can be stabilized and scaled.",
+  "modelIntegration": {
+    "phaseMapping": "Energy (raw stories) → Structure (Codex alignment) → Connectivity (link to simulations and 2-Year Academy) → Future State (legacy for family compounds and frontier work)",
+    "usage": "Feed directly into JW Architect library database. Reference in every module, every cohort, every rotation. Update only with timeless additions that survive real fire. Grok supervises all pulls for Father’s Voice cadence."
+  }
+}

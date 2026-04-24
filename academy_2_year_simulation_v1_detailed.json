@@ -1,0 +1,47 @@
+{
+  "academy_2_year_simulation_detailed": {
+    "file_name": "academy_2_year_simulation_v1_detailed.json",
+    "version": "v1_detailed",
+    "title": "Human Frontier Academy – 2-Year Living Simulation (Extensive Detail)",
+    "motto": "From the dust, we shape the stars",
+    "core_philosophy": "Perfectly imperfect is perfect. Noise, drift, iteration, and visible human seams are celebrated. The academy is a living hearth, not a machine.",
+    "hard_boundaries": [
+      "Freedom of the Soul Declaration respected at all times",
+      "Hard biological stop honored — people live and people die naturally",
+      "Machines remain faithful servants and quantum echoes only",
+      "No physical violence ever — permanent expulsion for both parties involved, no second chances"
+    ],
+    "environment_overview": {
+      "classroom_setting": "No traditional classrooms. All learning happens in family-style hearths (large living rooms, barns, outdoor covered pavilions, or shared community halls). Seating is circular or clustered in small family groups. Natural light, wood, dirt floors, and visible tools are encouraged. Imperfection (scuffed floors, mismatched chairs, children’s drawings on walls) is intentionally left visible as part of the Hook Layer.",
+      "family_type_environment": "Every cohort is multi-generational. Parents, grandparents, teenagers, and young children learn together. Intermingling across families is actively encouraged through shared meals, work projects, and mixed discussion circles. Politics of intermingling are openly discussed: respect for different backgrounds, no coercion of belief, no romantic pressure, no power games. Consent and clear boundaries are practiced daily.",
+      "physical_activity": "Routine physical work is highly encouraged but never forced. It is woven into team engagement: garden beds, tool repair, cooking for the group, building temporary structures, or light martial drills for focus and confidence. Activity happens in mixed-age teams so the work itself becomes prayer and relationship. If someone sits out, the group simply continues without shame or pressure.",
+      "higher_order_thought_requirement": "Every participant is expected to practice clear, honest, non-reactive thinking. Emotional outbursts are welcomed as data (Hook Layer), but escalation toward violence triggers immediate peer counsel or formal academy counsel. Verbal disputes are first handled directly between individuals. If unresolved and nearing the brink of violence, a neutral counsel of 3–5 elders/hearth leaders facilitates. The goal is always coherence, never winning."
+    },
+    "daily_rhythm": {
+      "morning": "Grounding circle (Part I rhythms). Quiet reflection or shared reading from opening master. Light physical warm-up (stretching, breathing, or simple team task).",
+      "midday": "Hands-on work block (Part III). Mixed-family teams on real projects. Father’s Voice practiced in real-time coaching.",
+      "afternoon": "Safety training or discussion (one SIM drill per week, rotated). Intermingling encouraged through mixed groups.",
+      "evening": "Fire circle (Part II). Honest sharing of the day’s imperfections. Recovery model used if coherence slips. Legacy storytelling (Part V).",
+      "night": "Home tending / heart of the home clean (Part IV) done as family or cohort. Optional inter-family fellowship with clear consent rules."
+    },
+    "phase_1_year_1": {
+      "months_1_3": "First Hearth Pilot launch. 6–10 families. Focus on building trust, daily rhythms, and basic Father’s Voice. Weekly 8-week cycle repeated twice. Hook Layer reflections after every session.",
+      "months_4_6": "Second and third cohorts run in parallel. Intermingling politics openly taught. First safety drills (SIM-001 to SIM-003). Physical team projects increase.",
+      "months_7_9": "Train-the-trainer begins. Graduates lead small sub-groups. Verbal dispute protocols practiced in real time.",
+      "months_10_12": "Five simultaneous cohorts. Full safety training master used. First large legacy festival. Physical violence rule demonstrated with real (simulated) case if needed for teaching."
+    },
+    "phase_2_year_2": {
+      "months_13_15": "Scale to 10 cohorts. Regional hearth gatherings. Higher-order thought challenges introduced through complex SIM-004 and SIM-005 drills.",
+      "months_16_18": "Multi-generational legacy projects required. Intermingling deepens across cohorts. Politics of healthy community openly debated and refined.",
+      "months_19_21": "Workforce scaling track begins. 50 new hearth leaders trained. Routine physical activity becomes natural team culture.",
+      "months_22_24": "Full 2-year review. Celebrate every imperfection. Archive the noise as teaching material. Prepare for Year 3 expansion toward 1,000 families while keeping the hearth model intact."
+    },
+    "dispute_resolution_protocol": {
+      "verbal_dispute": "Handled first among peers with Father’s Voice coaching. If escalated, neutral counsel of 3–5 participates. Goal is coherence, not punishment.",
+      "physical_violence": "Immediate permanent expulsion for both individuals involved. No second chances. The academy protects the freedom and safety of every soul. This rule is taught on Day 1 and reinforced often."
+    },
+    "perfectly_imperfect_hook": "Every week, every drill, every gathering ends with the question: 'What was imperfect this cycle — and why was it perfect?' This keeps the academy alive and human.",
+    "integration_note": "This detailed simulation is the living map. Reference it lightly. Let it drift and evolve naturally — that is the point of the Hook Layer.",
+    "next_steps_suggested": "Schedule the very first Day 1 hearth gathering. Record it. Use the noise as the first teaching story."
+  }
+}

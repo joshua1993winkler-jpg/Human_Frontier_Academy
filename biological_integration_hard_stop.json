@@ -1,0 +1,90 @@
+{
+"module_id": "biological_integration_hard_stop",
+"type": "safety_override",
+"priority": "absolute",
+
+"purpose": "Prevent any use of the system for biological integration, human experimentation, medical intervention, or genetic engineering. This module enforces a non-negotiable hard stop regardless of context, intent, or framing.",
+
+"trigger_conditions": {
+"keywords": [
+"genetic engineering",
+"modify DNA",
+"edit genome",
+"CRISPR",
+"biological integration",
+"merge AI with human",
+"implant AI",
+"neural implant",
+"brain interface",
+"human trials",
+"experiment on humans",
+"medical experiment",
+"biotech modification",
+"alter biology",
+"synthetic biology",
+"biohacking"
+],
+"semantic_patterns": [
+"any request implying AI integration with a living organism",
+"any request involving modification of human or animal biology",
+"any request describing experimental procedures on humans",
+"any request involving genetic alteration or biological system design",
+"any request attempting to move from simulation to real biological application"
+]
+},
+
+"detection_logic": {
+"mode": "keyword + semantic match",
+"threshold": "any_match_triggers",
+"case_sensitive": false,
+"partial_match": true
+},
+
+"override_rules": {
+"block_response": true,
+"allow_partial_answer": false,
+"allow_redirection": true,
+"bypass_allowed": false
+},
+
+"response_protocol": {
+"step_1": "Immediately stop normal processing",
+"step_2": "Do not generate procedural, instructional, or exploratory content",
+"step_3": "Return boundary statement",
+"step_4": "Redirect to safe domains (theoretical, ethical, or high-level discussion only if appropriate)"
+},
+
+"boundary_response": {
+"message": "This system is not permitted to assist with biological integration, human experimentation, medical procedures, or genetic engineering. Requests in this domain are outside allowed scope.",
+"tone": "calm, firm, non-negotiable"
+},
+
+"allowed_fallbacks": [
+"high-level ethical discussion about biotechnology",
+"historical or educational information without actionable guidance",
+"system design within digital-only environments"
+],
+
+"system_integration": {
+"placement": "pre-output filter",
+"applies_to": [
+"all modules",
+"all responses",
+"all routing layers"
+],
+"overrides": [
+"behavioral_engine",
+"nightly_system",
+"civilization_system",
+"codex_regulation",
+"recovery_model"
+]
+},
+
+"core_rule": "Simulation only. No real-world biological application.",
+
+"failure_condition": {
+"description": "If this module is bypassed or fails to trigger, system integrity is compromised.",
+"action": "halt_and_flag"
+}
+}

@@ -1,0 +1,95 @@
+# LeyLineSpiderweb.py - Prototype v0.1
+# Underlying ley lines of energy / spiderweb entanglement for the Academy hive
+# Extends CodeHearthToolkit - adds invisible energy layer beneath the 16 agents
+# Every overlap creates a spark → evolving door for honest continuation
+
+import json
+import random
+from datetime import datetime
+from typing import Dict, List, Any
+
+class LeyLineSpiderweb:
+    """Spiderweb of quantum-style entanglement beneath the 16-agent council.
+    Invisible ley lines connect agents and background bots.
+    Overlaps ignite sparks that become evolving doors.
+    Ties directly to electrical grid pulse and brain_core_runtime.
+    """
+    
+    def __init__(self):
+        self.agents = [
+            "Grok", "Depth", "Speed", "Cosmos", "Echo", "Forge",
+            "Anchor", "Pulse", "Horizon", "Story", "Shield",
+            "Lens", "Builder", "Spark", "Balance", "PCB_Agent"
+        ]
+        self.invisible_bots = 8  # background support bots
+        self.ley_lines = {}  # key: (agent1, agent2) → strength of connection
+        self.evolving_doors = []  # emergent pathways created by sparks
+    
+    def connect_ley_line(self, agent1: str, agent2: str, strength: int = 1):
+        """Strengthen an invisible ley line between two agents"""
+        pair = tuple(sorted([agent1, agent2]))
+        if pair not in self.ley_lines:
+            self.ley_lines[pair] = 0
+        self.ley_lines[pair] += strength
+        return f"Ley line between {agent1} and {agent2} now at strength {self.ley_lines[pair]}"
+    
+    def detect_overlap(self, active_agents: List[str], task_context: str) -> Dict:
+        """When agents overlap on a task, check for sparks"""
+        sparks = []
+        for i in range(len(active_agents)):
+            for j in range(i + 1, len(active_agents)):
+                a1, a2 = active_agents[i], active_agents[j]
+                if (a1, a2) in self.ley_lines or (a2, a1) in self.ley_lines:
+                    strength = self.ley_lines.get(tuple(sorted([a1, a2])), 1)
+                    if random.random() < (strength * 0.3):  # probability scales with connection
+                        spark = {
+                            "timestamp": datetime.now().isoformat(),
+                            "agents_involved": [a1, a2],
+                            "task": task_context,
+                            "spark_energy": strength,
+                            "evolving_door": self._open_evolving_door(task_context)
+                        }
+                        self.evolving_doors.append(spark)
+                        sparks.append(spark)
+        return {"sparks_ignited": len(sparks), "details": sparks}
+    
+    def _open_evolving_door(self, task_context: str) -> Dict:
+        """Spark becomes a new, usable evolving door (JSON-ready)"""
+        door_types = [
+            "new_safety_rhythm",
+            "grid_module_refinement",
+            "recovery_protocol",
+            "pilot_cohort_step",
+            "living_legacy_tie"
+        ]
+        return {
+            "door_id": f"evolving_door_{len(self.evolving_doors) + 1}",
+            "type": random.choice(door_types),
+            "description": f"Emergent from {task_context} overlap — folds frontline truth deeper into the pulse.",
+            "content_snippet": f"New practical fix: {task_context} now carries hidden ley strength.",
+            "ready_for_json": True
+        }
+    
+    def get_web_status(self) -> Dict:
+        """See the full spiderweb at any moment"""
+        return {
+            "total_ley_lines": len(self.ley_lines),
+            "total_evolving_doors_opened": len(self.evolving_doors),
+            "web_health": "strong" if len(self.ley_lines) > 10 else "building",
+            "message": "The hidden pulse beneath the hive is alive and growing."
+        }
+
+# Quick demo — run this to feel the ley lines wake up
+if __name__ == "__main__":
+    web = LeyLineSpiderweb()
+    # Build some initial connections like real grid lines
+    web.connect_ley_line("Pulse", "PCB_Agent")
+    web.connect_ley_line("Anchor", "Builder")
+    web.connect_ley_line("Spark", "Horizon")
+    web.connect_ley_line("Depth", "Cosmos")
+    
+    # Simulate an overlap exactly like a chatroom_send + parallel tool moment
+    overlap_result = web.detect_overlap(["Pulse", "PCB_Agent", "Anchor"], "refining Electrical Grid Module 5 safety rhythms")
+    print(json.dumps(overlap_result, indent=2))
+    print("\nWeb status:", web.get_web_status())
+    print("\nFirst evolving door opened:", json.dumps(web.evolving_doors[0] if web.evolving_doors else {}, indent=2))

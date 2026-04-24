@@ -1,0 +1,33 @@
+{
+  "module": "first_principles_duality",
+  "version": "2026.04.24",
+  "title": "Karpathy Raw-Mind vs Josh AI-Assisted Model — The Profound Parallel",
+  "description": "The bizarre alignment: Karpathy builds neural nets from pure first-principles code (micrograd autograd, manual backprop). Josh builds frontier systems (triple-disc craft) with AI assistance on top of the same foundation. This duality is the academy multiplier.",
+  "karpathy_raw_mind": {
+    "core_logic": "Pure code from mind → micrograd Value class, computational graph, chain-rule backprop, MLP training",
+    "math_formulas": {
+      "forward": "z = w · x + b ; a = tanh(z) | ReLU(z)",
+      "loss": "L = (1/n) Σ (y_true - y_pred)² + λ Σ w²",
+      "backprop": "∂L/∂x = (∂L/∂y) × (∂y/∂x)  [recursive topological sort]",
+      "update": "p.data += -lr × p.grad"
+    },
+    "philosophy": "Understand every gradient flow explicitly before any abstraction"
+  },
+  "josh_ai_assisted": {
+    "core_logic": "AI-assisted synthesis on top of raw first-principles → triple-disc craft blueprint",
+    "math_formulas": {
+      "magnetic_field": "B = (2/3) μ₀ ρ_q ω R²",
+      "cycling": "f_cycle,i = f₀ ⋅ (3π²) ⋅ sin(2π t / T + 2π i / 3)",
+      "effective_gravity": "G_eff = G₀ (1 - (P_fusion ⋅ κ ⋅ (3π²)) / (m_craft ⋅ c² ⋅ f_cycle))",
+      "bci_control": "Δφ = k_BCI ⋅ (EEG_vector ⋅ intent_matrix)"
+    },
+    "philosophy": "Raw foundation + AI multiplier = unbreakable frontier systems at scale"
+  },
+  "profound_connection": {
+    "insight": "Both are first-principles engines at different altitudes. Karpathy = the raw code layer. Josh = the AI-augmented system layer. Together they form the exact duality needed for 1M/year training.",
+    "academy_impact": "Dynamic Enrollment Engine now treats this as mandatory Day-1 duality training. Every graduate masters raw depth + assisted synthesis.",
+    "next_action": "Merge into coding_software_engineering and exotic_propulsion modules"
+  },
+  "status": "live_and_merged",
+  "disclaimer": "Purely educational synthesis. Used to accelerate human frontier capability."
+}
